@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "site_name": "Metraż",
+    "site_url": "https://metraz.pl",
+    "description": "Kalkulatory kredytu hipotecznego, rankingi ubezpieczeń nieruchomości i porady remontowe oparte na danych.",
+    "updated": "2026-05-23"
+  },
+
+  "kredyty": [
+    {
+      "slug": "kalkulator-kredytu-hipotecznego",
+      "title": "Kalkulator kredytu hipotecznego 2026 — rata, zdolność, koszty",
+      "desc": "Oblicz ratę kredytu hipotecznego, sprawdź zdolność kredytową i porównaj oferty banków w 2026 roku.",
+      "keywords": "kalkulator kredytu hipotecznego, rata kredytu hipotecznego, zdolność kredytowa, kredyt hipoteczny 2026",
+      "h1": "Kalkulator kredytu hipotecznego 2026",
+      "intro": "Kredyt hipoteczny to największe zobowiązanie finansowe w życiu większości Polaków. Zanim złożysz wniosek, sprawdź ile naprawdę zapłacisz — ratę, całkowity koszt i co wpływa na zdolność kredytową.",
+      "kalkulator": true,
+      "sekcje": [
+        {
+          "h2": "Jak oblicza się ratę kredytu hipotecznego?",
+          "tresc": "Rata kredytu hipotecznego zależy od: kwoty kredytu, okresu spłaty (najczęściej 20–35 lat), oprocentowania (WIBOR + marża banku) oraz rodzaju rat (równe lub malejące). Przy racie równej co miesiąc płacisz tę samą kwotę — początkowo głównie odsetki, z czasem coraz więcej kapitału. Raty malejące są droższe na początku, ale tańsze łącznie."
+        },
+        {
+          "h2": "Zdolność kredytowa — co na nią wpływa?",
+          "tresc": "Banki oceniają zdolność kredytową na podstawie: wysokości i stabilności dochodów (umowa o pracę > umowa zlecenie), stałych zobowiązań (inne kredyty, alimenty), liczby osób w gospodarstwie domowym, historii kredytowej w BIK, wkładu własnego (minimum 10%, optymalnie 20%), wieku wnioskodawcy."
+        },
+        {
+          "h2": "Wkład własny — ile potrzebujesz?",
+          "tresc": "Minimalne wymagania: 10% wartości nieruchomości (z ubezpieczeniem niskiego wkładu), 20% — standardowo bez dodatkowych kosztów. Przy 10% wkładu bank pobiera ubezpieczenie lub wyższą marżę. Np. przy zakupie mieszkania za 500 000 zł: wkład 10% = 50 000 zł, wkład 20% = 100 000 zł."
+        },
+        {
+          "h2": "Jak porównać oferty banków?",
+          "tresc": "Nie patrz tylko na oprocentowanie nominalne — porównuj RRSO (Rzeczywista Roczna Stopa Oprocentowania), która uwzględnia wszystkie koszty: marżę, prowizję, ubezpieczenia wymagane przez bank. Kluczowe parametry do porównania: marża banku, wymagany wkład własny, prowizja za udzielenie kredytu, wymagane produkty dodatkowe (konto, ubezpieczenie na życie)."
+        }
+      ],
+      "faq": [
+        { "q": "Ile wynosi rata kredytu 300 000 zł na 30 lat?", "a": "Przy oprocentowaniu 7,5% rata równa wynosi ok. 2 097 zł miesięcznie. Całkowity koszt kredytu: ok. 755 000 zł (spłacasz 455 000 zł odsetek). Przy 25 latach rata byłaby wyższa ok. 2 200 zł, ale całkowity koszt niższy." },
+        { "q": "Ile zarabiam żeby dostać kredyt 400 000 zł?", "a": "Szacunkowo para powinna zarabiać łącznie ok. 7 000–8 000 zł netto przy standardowych zobowiązaniach. Singiel potrzebuje ok. 5 500–6 500 zł netto. Dokładna kwota zależy od banku i okresu kredytowania." },
+        { "q": "Raty równe czy malejące — co wybrać?", "a": "Raty malejące są droższe na początku (ok. 20–30% wyższe pierwsze raty), ale łącznie taniej — płacisz mniej odsetek. Raty równe to niższa pierwsza rata i lepsza zdolność kredytowa. Jeśli możesz sobie pozwolić na wyższą ratę — raty malejące są korzystniejsze finansowo." },
+        { "q": "Kiedy najlepiej brać kredyt hipoteczny?", "a": "Nie da się idealnie przewidzieć stóp procentowych. Ważniejsze jest: czy masz stabilne dochody, odpowiedni wkład własny i potrzebujesz mieszkania. Czekanie na niższe stopy to ryzyko wzrostu cen nieruchomości." }
+      ],
+      "oferty": [
+        {
+          "name": "Rankomat — porównaj kredyty",
+          "shop": "rankomat.pl",
+          "logo": "rankomat.pl",
+          "typ": "Porównywarka",
+          "opis": "Porównaj oferty 15+ banków w 2 minuty",
+          "plusy": ["Bezpłatna porównywarka", "15+ banków jednocześnie", "Ekspert kredytowy online"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/rankomat",
+          "featured": true,
+          "badge": "Bezpłatne"
+        },
+        {
+          "name": "Lendi — doradca kredytowy",
+          "shop": "lendi.pl",
+          "logo": "lendi.pl",
+          "typ": "Doradca online",
+          "opis": "Doradca kredytowy bez wychodzenia z domu",
+          "plusy": ["Bezpłatna analiza zdolności", "Negocjuje warunki z bankiem", "Zdalnie lub w oddziale"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/lendi",
+          "featured": false
+        },
+        {
+          "name": "Expander — niezależny doradca",
+          "shop": "expander.pl",
+          "logo": "expander.pl",
+          "typ": "Doradca finansowy",
+          "opis": "Największa sieć doradców w Polsce",
+          "plusy": ["Ponad 500 doradców w Polsce", "Negocjacja marży z bankiem", "Kompleksowa obsługa wniosku"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/expander",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "slug": "zdolnosc-kredytowa",
+      "title": "Zdolność kredytowa 2026 — jak sprawdzić i poprawić?",
+      "desc": "Sprawdź jak banki obliczają zdolność kredytową, co ją obniża i jak skutecznie ją poprawić przed wnioskiem o kredyt.",
+      "keywords": "zdolność kredytowa, jak poprawić zdolność kredytową, zdolność kredytowa kalkulator, co wpływa na zdolność kredytową",
+      "h1": "Zdolność kredytowa — jak sprawdzić i jak poprawić?",
+      "intro": "Zdolność kredytowa to kluczowy parametr decydujący o tym, czy dostaniesz kredyt i na jakich warunkach. Sprawdź co na nią wpływa i jak skutecznie ją poprawić przed złożeniem wniosku.",
+      "kalkulator": false,
+      "sekcje": [
+        {
+          "h2": "Jak banki obliczają zdolność kredytową?",
+          "tresc": "Bank sprawdza: dochody netto (wszystkie źródła), stałe koszty utrzymania (wg modeli statystycznych lub deklaracji), istniejące zobowiązania finansowe, historię kredytową w BIK i BIG, scoring kredytowy, wiek (ograniczenie do 70–75 lat na koniec kredytu). Wynik: maksymalna miesięczna rata jaką możesz spłacać."
+        },
+        {
+          "h2": "Co obniża zdolność kredytową?",
+          "tresc": "Inne kredyty i pożyczki (każde zobowiązanie zmniejsza zdolność), limit na karcie kredytowej (banki liczą 3–5% limitu jako miesięczne obciążenie nawet jeśli nie korzystasz), umowa zlecenie/o dzieło zamiast etatu, krótki staż pracy (mniej niż 6–12 miesięcy), negatywna historia w BIK, duża liczba osób na utrzymaniu."
+        },
+        {
+          "h2": "Jak poprawić zdolność kredytową — 6 sposobów",
+          "tresc": "1. Zamknij nieużywane karty kredytowe i limity. 2. Spłać drobne kredyty konsumenckie. 3. Weź kredyt ze współkredytobiorcą (partner, rodzice). 4. Wydłuż okres kredytowania (niższa rata = wyższa zdolność). 5. Zmień umowę na etat (lub poczekaj 12 miesięcy na umowie zlecenie). 6. Zbierz większy wkład własny."
+        },
+        {
+          "h2": "BIK — jak sprawdzić historię kredytową?",
+          "tresc": "Raport BIK możesz pobrać bezpłatnie raz na 6 miesięcy na bik.pl. Pokazuje wszystkie Twoje zobowiązania i historię spłat. Jeśli masz opóźnienia w BIK: spłać zaległości i poczekaj minimum 12 miesięcy przed wnioskiem o kredyt hipoteczny."
+        }
+      ],
+      "faq": [
+        { "q": "Jak szybko poprawić zdolność kredytową?", "a": "Najszybszy efekt: zamknięcie kart kredytowych i limitów (widoczne w BIK po 1–2 miesiącach), spłata drobnych zobowiązań, dodanie współkredytobiorcy. Zmiana pracy na etat — bank wymaga zwykle 3–6 miesięcy okresu próbnego." },
+        { "q": "Czy mogę sprawdzić zdolność kredytową bez wniosku?", "a": "Tak — kalkulator zdolności kredytowej (np. na Rankomat.pl lub Lendi.pl) daje orientacyjny wynik bez zapytania do BIK. Każdy wniosek kredytowy obniża scoring BIK, więc lepiej najpierw sprawdzić orientacyjnie." },
+        { "q": "Jak karta kredytowa wpływa na zdolność?", "a": "Negatywnie — bank liczy 3–5% limitu karty jako miesięczne zobowiązanie, nawet jeśli spłacasz ją w całości każdego miesiąca. Karta z limitem 10 000 zł obniża zdolność jakby miała ratę 300–500 zł/mies." }
+      ],
+      "oferty": [
+        {
+          "name": "Rankomat — bezpłatna analiza",
+          "shop": "rankomat.pl",
+          "logo": "rankomat.pl",
+          "typ": "Porównywarka",
+          "opis": "Sprawdź zdolność bez wpływu na BIK",
+          "plusy": ["Bez zapytania do BIK", "Wynik w 2 minuty", "Bezpłatna analiza"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/rankomat",
+          "featured": true,
+          "badge": "Bez BIK"
+        },
+        {
+          "name": "BIK — pobierz raport",
+          "shop": "bik.pl",
+          "logo": "bik.pl",
+          "typ": "Raport kredytowy",
+          "opis": "Sprawdź swoją historię kredytową",
+          "plusy": ["Raz na 6 miesięcy bezpłatnie", "Pełna historia kredytowa", "Alert BIK — ochrona przed wyłudzeniem"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/bik",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "slug": "kredyt-hipoteczny-porownanie-bankow",
+      "title": "Kredyt hipoteczny — ranking banków 2026 i porównanie ofert",
+      "desc": "Porównaj oferty kredytów hipotecznych w polskich bankach. Ranking marż, prowizji i wymagań 2026.",
+      "keywords": "kredyt hipoteczny ranking 2026, najlepszy kredyt hipoteczny, porównanie kredytów hipotecznych, niska marża kredyt",
+      "h1": "Kredyt hipoteczny — ranking banków 2026",
+      "intro": "Różnica w marży 0,5% przy kredycie na 30 lat to dziesiątki tysięcy złotych. Sprawdź aktualne oferty banków i wybierz najkorzystniejszą.",
+      "kalkulator": false,
+      "sekcje": [
+        {
+          "h2": "Na co patrzeć przy wyborze kredytu?",
+          "tresc": "Marża banku — stały narzut ponad WIBOR, negocjowalny. Prowizja — jednorazowa opłata za udzielenie (0–3% kwoty kredytu). Wymagane produkty krzyżowe — konto, ubezpieczenie na życie (obniżają marżę, ale generują koszty). Okres kredytowania — maksymalny u danego banku (do 35 lat). Możliwość wcześniejszej spłaty — czy są kary?"
+        },
+        {
+          "h2": "Jak negocjować warunki kredytu?",
+          "tresc": "Banki mają przestrzeń do negocjacji marży, szczególnie jeśli masz: duży wkład własny (powyżej 20–30%), wysokie i stabilne dochody, dobrą historię kredytową w BIK, oferty konkurencji jako argument. Doradca kredytowy (Lendi, Expander) często uzyska lepsze warunki niż samodzielne negocjacje — i jest bezpłatny dla klienta."
+        },
+        {
+          "h2": "Kredyt stałoprocentowy vs. zmienny — co wybrać?",
+          "tresc": "Kredyt ze stałą stopą (na 5–10 lat): wyższe oprocentowanie ale bezpieczeństwo — rata się nie zmieni. Polecany gdy stopy są niskie lub planujesz budżet długoterminowo. Kredyt zmienny (WIBOR + marża): niższe oprocentowanie gdy stopy spadają, ale ryzyko wzrostu raty. W 2026 warto rozważyć stałe oprocentowanie przy pierwszych 5 latach."
+        }
+      ],
+      "faq": [
+        { "q": "Który bank daje najlepszy kredyt hipoteczny w 2026?", "a": "Nie ma jednej odpowiedzi — zależy od Twojej sytuacji (wkład, dochody, cel). Najniższe marże oferują PKO BP, mBank i ING, ale warunki zależą od profilu klienta. Użyj porównywarki (Rankomat, Lendi) żeby zobaczyć oferty dopasowane do Twojej sytuacji." },
+        { "q": "Jak długo trwa decyzja kredytowa?", "a": "Decyzja wstępna: 1–3 dni robocze. Decyzja ostateczna po dostarczeniu dokumentów: 2–4 tygodnie. Cały proces od wniosku do podpisania umowy: 4–8 tygodni. Z doradcą kredytowym często szybciej." },
+        { "q": "Czy warto skorzystać z doradcy kredytowego?", "a": "Tak — dla klienta jest bezpłatny (bank płaci prowizję), zna oferty wielu banków, negocjuje warunki i pomaga z dokumentacją. Szczególnie polecany przy skomplikowanych sytuacjach (własna działalność, nieregularne dochody)." }
+      ],
+      "oferty": [
+        {
+          "name": "Lendi — porównaj 20 banków",
+          "shop": "lendi.pl",
+          "logo": "lendi.pl",
+          "typ": "Doradca kredytowy",
+          "opis": "Bezpłatna analiza + negocjacja z bankiem",
+          "plusy": ["20+ banków w jednym miejscu", "Bezpłatny dla klienta", "Negocjuje marżę i prowizję"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/lendi",
+          "featured": true,
+          "badge": "Bezpłatny doradca"
+        },
+        {
+          "name": "Rankomat Hipoteki",
+          "shop": "rankomat.pl",
+          "logo": "rankomat.pl",
+          "typ": "Porównywarka online",
+          "opis": "Porównaj oferty samodzielnie online",
+          "plusy": ["Szybkie porównanie online", "Aktualnie oferty banków", "Kalkulator raty"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/rankomat",
+          "featured": false
+        }
+      ]
+    }
+  ],
+
+  "ubezpieczenia": [
+    {
+      "slug": "ubezpieczenie-mieszkania",
+      "title": "Ubezpieczenie mieszkania 2026 — ranking i jak wybrać?",
+      "desc": "Porównaj ubezpieczenia mieszkania i domu. Sprawdź co obejmuje polisa, ile kosztuje i który ubezpieczyciel jest najlepszy.",
+      "keywords": "ubezpieczenie mieszkania, ubezpieczenie domu ranking, tanie ubezpieczenie nieruchomości, co obejmuje ubezpieczenie mieszkania",
+      "h1": "Ubezpieczenie mieszkania 2026 — ranking i porównanie",
+      "intro": "Ubezpieczenie mieszkania to często zaledwie 200–600 zł rocznie, a może uchronić przed stratą setek tysięcy złotych. Sprawdź co powinno obejmować i który ubezpieczyciel oferuje najlepszy stosunek ceny do zakresu.",
+      "sekcje": [
+        {
+          "h2": "Co powinno obejmować ubezpieczenie mieszkania?",
+          "tresc": "Mury i elementy stałe (obowiązkowe przy kredycie hipotecznym): pożar, zalanie, powódź, trzęsienie ziemi, huragan, wybuch. Ruchomości domowe (wyposażenie): kradzież z włamaniem, wandalizm, zalanie przez sąsiada. OC w życiu prywatnym: zalanie sąsiada, szkody wyrządzone osobom trzecim. Assistance: pomoc hydraulika, ślusarza, elektryka."
+        },
+        {
+          "h2": "Ile kosztuje ubezpieczenie mieszkania?",
+          "tresc": "Ubezpieczenie murów mieszkania 50 m²: ok. 150–350 zł/rok. Pakiet (mury + wyposażenie + OC): 250–600 zł/rok. Na cenę wpływa: metraż i wartość nieruchomości, piętro i typ budownictwa, lokalizacja (strefa zalewowa, kradzieże), wybrane sumy ubezpieczenia i opcje dodatkowe."
+        },
+        {
+          "h2": "Ubezpieczenie obowiązkowe przy kredycie hipotecznym",
+          "tresc": "Bank wymaga: ubezpieczenia nieruchomości (murów) z cesją na bank — chroni zabezpieczenie kredytu. Banki często proponują własne polisy — mogą być droższe. Masz prawo wybrać dowolnego ubezpieczyciela spełniającego wymogi banku. Warto porównać — oszczędzisz 100–300 zł rocznie."
+        }
+      ],
+      "faq": [
+        { "q": "Czy ubezpieczenie mieszkania jest obowiązkowe?", "a": "Przy kredycie hipotecznym — tak, bank wymaga ubezpieczenia murów z cesją. Bez kredytu — dobrowolne, ale bardzo zalecane. OC w życiu prywatnym jest opcjonalne, ale warto mieć — jedna zalana przez Ciebie podłoga u sąsiada to kilka tysięcy złotych." },
+        { "q": "Jak działa cesja polisy na bank?", "a": "Cesja oznacza, że w razie szkody (np. pożar, zalanie) odszkodowanie trafia do banku, a nie do Ciebie — bank jest zabezpieczony. W praktyce bank zazwyczaj przekazuje pieniądze na naprawę szkody, nie na spłatę kredytu." },
+        { "q": "Co nie jest objęte ubezpieczeniem mieszkania?", "a": "Standardowo wyłączone: umyślne działanie ubezpieczonego, szkody wynikające z braku konserwacji i zaniedbania, zalanie spowodowane nieszczelnością dachu starszą niż określony wiek budynku, powódź (jeśli nie dokupiono opcji), gotówka powyżej limitu." }
+      ],
+      "oferty": [
+        {
+          "name": "Mubi — porównaj ubezpieczenia",
+          "shop": "mubi.pl",
+          "logo": "mubi.pl",
+          "typ": "Porównywarka",
+          "opis": "Porównaj 15 ubezpieczycieli w 3 minuty",
+          "plusy": ["15+ ubezpieczycieli", "Najtańsza polisa online", "Bez wychodzenia z domu"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/mubi",
+          "featured": true,
+          "badge": "Porównaj ceny"
+        },
+        {
+          "name": "Beesafe — ubezpieczenie online",
+          "shop": "beesafe.pl",
+          "logo": "beesafe.pl",
+          "typ": "Ubezpieczyciel online",
+          "opis": "Szybkie ubezpieczenie 100% online",
+          "plusy": ["Polisa w 5 minut", "Pełny zakres ochrony", "Assistance 24/7"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/beesafe",
+          "featured": false
+        },
+        {
+          "name": "Link4 — ubezpieczenie nieruchomości",
+          "shop": "link4.pl",
+          "logo": "link4.pl",
+          "typ": "Ubezpieczyciel",
+          "opis": "Znana marka, szeroki zakres",
+          "plusy": ["Assistance z hydraulikiem", "OC w życiu prywatnym w pakiecie", "Dobra obsługa szkód"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/link4",
+          "featured": false
+        }
+      ]
+    }
+  ],
+
+  "remonty": [
+    {
+      "slug": "ile-kosztuje-remont-mieszkania",
+      "title": "Ile kosztuje remont mieszkania 2026? Cennik i kalkulator",
+      "desc": "Sprawdź aktualne ceny remontu mieszkania w 2026. Ile kosztuje malowanie, łazienka, podłogi i kuchnia?",
+      "keywords": "ile kosztuje remont mieszkania, koszt remontu 2026, remont mieszkania cennik, kalkulator remontu",
+      "h1": "Ile kosztuje remont mieszkania w 2026? Cennik",
+      "intro": "Koszty remontów w Polsce wzrosły o 30–50% od 2021 roku. Sprawdź aktualne stawki za robociznę i materiały, żeby dobrze zaplanować budżet i nie dać się zaskoczyć.",
+      "sekcje": [
+        {
+          "h2": "Koszty remontu — cennik 2026",
+          "tresc": "Malowanie ścian: 15–30 zł/m² (robocizna). Układanie płytek: 80–150 zł/m². Układanie podłogi (panele): 30–60 zł/m². Remont łazienki (kompleksowy): 15 000–40 000 zł. Remont kuchni (bez mebli): 10 000–25 000 zł. Wymiana instalacji elektrycznej (mieszkanie 50 m²): 8 000–18 000 zł. Wymiana okien (szt.): 1 200–3 000 zł."
+        },
+        {
+          "h2": "Jak zaplanować budżet na remont?",
+          "tresc": "Zasady planowania budżetu: podziel remont na etapy i wyceniaj każdy osobno, dodaj 15–20% rezerwy na nieprzewidziane wydatki, zbierz 3 oferty od różnych wykonawców, rozróżnij koszty robocizny (negocjowalne) od materiałów (stałe ceny sklepowe), rozważ zakup materiałów samodzielnie — wykonawcy często doliczają marżę 10–20%."
+        },
+        {
+          "h2": "Jak znaleźć dobrego wykonawcę?",
+          "tresc": "Sprawdzone metody: polecenia od znajomych (najskuteczniejsze), portale z wykonawcami (Oferteo, Fixly — z opiniami), poproś o referencje i zdjęcia poprzednich realizacji, sprawdź czy ma ubezpieczenie OC, podpisz umowę z harmonogramem i karami za opóźnienia, płać etapami — nie całość z góry."
+        },
+        {
+          "h2": "Remont a kredyt — jak sfinansować?",
+          "tresc": "Opcje finansowania remontu: kredyt gotówkowy (szybki, 0% na start przy promocjach), kredyt hipoteczny z podwyższoną kwotą (niższe oprocentowanie, ale formalności), leasing konsumencki (dla niektórych produktów AGD/RTV), płatność kartą 0% (przy zakupach materiałów — do 12 rat 0%)."
+        }
+      ],
+      "faq": [
+        { "q": "Ile kosztuje remont kawalerki (30 m²)?", "a": "Generalny remont kawalerki (malowanie, podłogi, łazienka, kuchnia bez mebli): 25 000–60 000 zł. Odświeżenie (tylko malowanie i podłogi): 5 000–12 000 zł. Ceny zależą od standardu wykończenia i regionu (Warszawa i duże miasta droższe o 20–40%)." },
+        { "q": "Ile trwa remont mieszkania 50 m²?", "a": "Generalny remont: 2–4 miesiące (przy ekipie pracującej regularnie). Remont łazienki: 2–4 tygodnie. Odświeżenie (malowanie, podłogi): 1–2 tygodnie. Czas wydłuża się przy niestandardowych rozwiązaniach, problemach z instalacjami lub niedostępności materiałów." },
+        { "q": "Co jest najtańsze do samodzielnego wykonania?", "a": "Malowanie ścian (po odpowiednim przygotowaniu), montaż paneli podłogowych, montaż oświetlenia (proste punkty), tapetowanie, montaż mebli IKEA. Nie oszczędzaj na: instalacjach elektrycznych, hydraulice, pracach wymagających uprawnień." }
+      ],
+      "oferty": [
+        {
+          "name": "Leroy Merlin — materiały budowlane",
+          "shop": "leroymerlin.pl",
+          "logo": "leroymerlin.pl",
+          "typ": "Sklep budowlany",
+          "opis": "Największy wybór materiałów w Polsce",
+          "plusy": ["Ogromny wybór produktów", "Click & Collect", "Doradztwo w sklepie"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/leroy",
+          "featured": true,
+          "badge": "Największy wybór"
+        },
+        {
+          "name": "Castorama — sklep online",
+          "shop": "castorama.pl",
+          "logo": "castorama.pl",
+          "typ": "Sklep budowlany",
+          "opis": "Szeroki asortyment, dostawa do domu",
+          "plusy": ["Dostawa do domu", "Regularne promocje", "Dobra jakość własnej marki"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/castorama",
+          "featured": false
+        },
+        {
+          "name": "Oferteo — znajdź wykonawcę",
+          "shop": "oferteo.pl",
+          "logo": "oferteo.pl",
+          "typ": "Portal wykonawców",
+          "opis": "Porównaj oferty lokalnych wykonawców",
+          "plusy": ["Zweryfikowane opinie", "Bezpłatne zapytanie", "Lokalni wykonawcy"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/oferteo",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "slug": "ile-kosztuje-remont-lazienki",
+      "title": "Ile kosztuje remont łazienki 2026? Cennik i etapy",
+      "desc": "Remont łazienki to jeden z droższych etapów. Sprawdź cennik robocizny, materiałów i jak zaplanować budżet.",
+      "keywords": "ile kosztuje remont łazienki, remont łazienki cennik 2026, remont łazienki etapy, remont małej łazienki koszt",
+      "h1": "Ile kosztuje remont łazienki w 2026?",
+      "intro": "Remont łazienki to inwestycja na lata — i jeden z najbardziej kosztownych etapów remontu. Sprawdź aktualne ceny, etapy prac i jak nie przepłacić.",
+      "sekcje": [
+        {
+          "h2": "Koszt remontu łazienki — zestawienie",
+          "tresc": "Mała łazienka 4–6 m²: 12 000–25 000 zł (standard), 25 000–45 000 zł (wysoki standard). Średnia łazienka 6–10 m²: 18 000–35 000 zł (standard), 35 000–60 000 zł (wysoki standard). Podział kosztów orientacyjny: robocizna 35–45%, materiały wykończeniowe (płytki, armatura) 35–45%, instalacje (hydraulika, elektryka) 15–20%."
+        },
+        {
+          "h2": "Etapy remontu łazienki",
+          "tresc": "1. Projekt i przygotowanie (1–2 tyg.) — plan układu, dobór materiałów, zamówienie płytek z zapasem 10%. 2. Prace wyburzeniowe i instalacje (1–2 tyg.) — skucie starych płytek, wymiana rur, elektryka. 3. Murowanie, wylewki (1 tyg. + schnięcie). 4. Układanie płytek (1–2 tyg.). 5. Montaż sanitariatów i armatury (2–3 dni). 6. Malowanie, drzwi, wykończenie (3–5 dni)."
+        },
+        {
+          "h2": "Na czym można zaoszczędzić?",
+          "tresc": "Materiały: płytki z marketu budowlanego zamiast designerskich (oszczędność 30–60%), armatura z polskich fabryk (dobra jakość, niższa cena). Robocizna: nie oszczędzaj na hydrauliku i elektryku — błędy kosztują dużo więcej. Możesz samodzielnie: malowanie sufitu, montaż akcesoriów (wieszaki, lustro), montaż oświetlenia (podstawowe)."
+        }
+      ],
+      "faq": [
+        { "q": "Ile trwa remont łazienki?", "a": "Łazienka 4–6 m²: 3–5 tygodni (przy sprawnej ekipie). Łazienka 6–10 m²: 5–8 tygodni. Do tego doliczyć czas schnięcia (wylewki, fugi) — nie da się przyspieszyć. Cały proces z projektem i zakupem materiałów: 2–4 miesiące." },
+        { "q": "Prysznic czy wanna — co jest tańsze w remoncie?", "a": "Kabina prysznicowa jest tańsza w montażu i zajmuje mniej miejsca. Wanna wymaga większej przestrzeni i często wzmocnienia podłogi. Prysznic walk-in (bez brodzika) jest droższy w wykonaniu (hydroizolacja), ale efektowny i łatwy w sprzątaniu." },
+        { "q": "Czy trzeba wymieniać instalację podczas remontu łazienki?", "a": "Jeśli instalacja ma ponad 30–40 lat lub są pierwsze oznaki korozji — warto przy okazji. Koszt wymiany rur przy otwartych ścianach jest wielokrotnie niższy niż po ich zamknięciu. Zawsze sprawdź stan instalacji przed zamurowaniem." }
+      ],
+      "oferty": [
+        {
+          "name": "Leroy Merlin — łazienka",
+          "shop": "leroymerlin.pl",
+          "logo": "leroymerlin.pl",
+          "typ": "Sklep budowlany",
+          "opis": "Płytki, armatura, kabiny — wszystko w jednym",
+          "plusy": ["Ogromny wybór płytek i armatury", "Projekty łazienek online", "Dostawa i montaż"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/leroy",
+          "featured": true,
+          "badge": "Wszystko w jednym"
+        },
+        {
+          "name": "Castorama — łazienka",
+          "shop": "castorama.pl",
+          "logo": "castorama.pl",
+          "typ": "Sklep budowlany",
+          "opis": "Dobry stosunek jakości do ceny",
+          "plusy": ["Własna marka dobrej jakości", "Częste promocje", "Fachowe doradztwo"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/castorama",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "slug": "ceny-mieszkan-2026",
+      "title": "Ceny mieszkań 2026 — ile kosztuje m² w największych miastach?",
+      "desc": "Aktualne ceny mieszkań w Warszawie, Krakowie, Wrocławiu i innych miastach. Trendy i prognozy na 2026 rok.",
+      "keywords": "ceny mieszkań 2026, ile kosztuje mieszkanie warszawa, ceny m2 mieszkania, ceny nieruchomości 2026",
+      "h1": "Ceny mieszkań 2026 — ile kosztuje m² w Polsce?",
+      "intro": "Rynek nieruchomości w Polsce przeszedł ogromne zmiany. Sprawdź aktualne ceny za metr kwadratowy w największych miastach i co wpływa na ceny mieszkań w 2026 roku.",
+      "sekcje": [
+        {
+          "h2": "Ceny mieszkań w największych miastach 2026",
+          "tresc": "Warszawa: 13 000–22 000 zł/m² (średnio ok. 16 000 zł). Kraków: 12 000–19 000 zł/m² (średnio ok. 14 500 zł). Wrocław: 10 500–17 000 zł/m² (średnio ok. 13 000 zł). Gdańsk: 11 000–18 000 zł/m² (średnio ok. 13 500 zł). Poznań: 9 500–15 000 zł/m² (średnio ok. 11 500 zł). Łódź: 7 000–11 000 zł/m² (średnio ok. 8 500 zł). Katowice: 7 500–12 000 zł/m² (średnio ok. 9 000 zł)."
+        },
+        {
+          "h2": "Co wpływa na cenę mieszkania?",
+          "tresc": "Lokalizacja w mieście — centrum vs. obrzeża różni się nawet 50–100%. Piętro (środkowe piętra najdroższe, parter i ostatnie piętro tańsze). Stan techniczny i standard wykończenia. Rok budowy i technologia (nowe budownictwo droższe, ale tańsze w utrzymaniu). Ekspozycja (południe/zachód droższe). Dostęp do komunikacji, szkół, parków."
+        },
+        {
+          "h2": "Rynek pierwotny vs. wtórny — co kupić?",
+          "tresc": "Rynek pierwotny: nowe budownictwo, wyższe standardy energetyczne, możliwość wykończenia pod siebie, często wymaganie 2–3 lat czekania, wyższa cena. Rynek wtórny: dostępność od zaraz, niższa cena (zwykle), możliwe koszty remontu, możliwość negocjacji ceny. Decyzja zależy od budżetu i pilności zakupu."
+        }
+      ],
+      "faq": [
+        { "q": "Czy ceny mieszkań będą spadać w 2026?", "a": "Większość analityków prognozuje stabilizację lub umiarkowany wzrost cen. Czynniki wzrostu: rosnące koszty budowy, niedobór gruntów w centrach miast, inflacja. Czynniki hamujące: wysokie stopy procentowe, niższa dostępność kredytów." },
+        { "q": "Kiedy najlepiej kupić mieszkanie?", "a": "Nie ma idealnego momentu rynkowego. Ważniejsze: czy masz stabilną sytuację finansową, zdolność kredytową i planujesz mieszkać w nim min. 5 lat. Próby wyczekania idealnej ceny często kończą się utratą okazji." },
+        { "q": "Jak negocjować cenę mieszkania?", "a": "Na rynku wtórnym: sprawdź jak długo mieszkanie jest w ofercie (powyżej 3 miesięcy = większa przestrzeń do negocjacji), uzasadnij ofertę (koszty remontu, czas na rynku), zacznij od 5–10% poniżej ceny wywoławczej. Na rynku pierwotnym: trudniej negocjować cenę, ale można uzyskać miejsce parkingowe, komórkę lub wyposażenie gratis." }
+      ],
+      "oferty": [
+        {
+          "name": "Lendi — kalkulator zdolności",
+          "shop": "lendi.pl",
+          "logo": "lendi.pl",
+          "typ": "Doradca kredytowy",
+          "opis": "Ile możesz pożyczyć na mieszkanie?",
+          "plusy": ["Bezpłatna analiza zdolności", "Oferty 20+ banków", "Bez wpływu na BIK"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/lendi",
+          "featured": true,
+          "badge": "Sprawdź zdolność"
+        },
+        {
+          "name": "Mubi — ubezpieczenie kupowanego mieszkania",
+          "shop": "mubi.pl",
+          "logo": "mubi.pl",
+          "typ": "Porównywarka ubezpieczeń",
+          "opis": "Obowiązkowe przy kredycie hipotecznym",
+          "plusy": ["Wymagane przez bank", "Porównaj 15 ubezpieczycieli", "Od 150 zł rocznie"],
+          "link": "https://mylead.pl/aff/TWOJ_ID/mubi",
+          "featured": false
+        }
+      ]
+    }
+  ]
+}

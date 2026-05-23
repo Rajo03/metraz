@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block title %}{{ meta.site_name }} — Kredyty hipoteczne, ubezpieczenia i remonty{% endblock %}
+{% block description %}{{ meta.description }}{% endblock %}
+{% block og_title %}{{ meta.site_name }} — Kredyty hipoteczne, ubezpieczenia i remonty{% endblock %}
+{% block og_desc %}{{ meta.description }}{% endblock %}
+{% block canonical %}<link rel="canonical" href="{{ meta.site_url }}/">{% endblock %}
+
+{% block styles %}
+{% include "partials/styles.css" %}
+{% endblock %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="wrap hero-content">
+    <div class="hero-eyebrow">Rzetelne informacje o nieruchomościach</div>
+    <h1>Kredyty, ubezpieczenia i remonty<br>bez zbędnego szumu</h1>
+    <p class="hero-sub">Kalkulatory kredytowe, rankingi ubezpieczeń mieszkania i aktualne ceny remontów. Dane oparte na faktach, nie reklamach banków.</p>
+    <a href="#kredyty" class="hero-cta">Sprawdź kalkulatory →</a>
+    <div class="hero-trust">
+      <div class="hero-trust-item">
+        <div class="hero-trust-icon hero-trust-icon--blue">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+        </div>
+        <div><div class="hero-trust-val">{{ kredyty|length + ubezpieczenia|length + remonty|length }}+</div><div class="hero-trust-label">artykułów</div></div>
+      </div>
+      <div class="hero-trust-item">
+        <div class="hero-trust-icon hero-trust-icon--blue">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <div><div class="hero-trust-val">15+</div><div class="hero-trust-label">banków porównanych</div></div>
+      </div>
+      <div class="hero-trust-item">
+        <div class="hero-trust-icon hero-trust-icon--blue">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <div><div class="hero-trust-val">Bezpłatnie</div><div class="hero-trust-label">wszystkie kalkulatory</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KREDYTY -->
+<section class="section" id="kredyty">
+  <div class="wrap">
+    <div class="section-eyebrow">Kalkulatory i porównania</div>
+    <h2 class="section-title">Kredyty hipoteczne</h2>
+    <p class="section-sub">Oblicz ratę, sprawdź zdolność kredytową i porównaj oferty banków. Bez zgadywania.</p>
+    <div class="articles-grid">
+      {% for art in kredyty %}
+      <a href="kredyty/{{ art.slug }}/" class="article-card reveal">
+        <div class="article-card-cat">Kredyt hipoteczny</div>
+        <div class="article-card-title">{{ art.title }}</div>
+        <div class="article-card-desc">{{ art.desc }}</div>
+        <div class="article-card-link">
+          Czytaj i licz
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- UBEZPIECZENIA -->
+<section class="section" id="ubezpieczenia" style="background:var(--dark-2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="wrap">
+    <div class="section-eyebrow">Rankingi i porównania</div>
+    <h2 class="section-title">Ubezpieczenia nieruchomości</h2>
+    <p class="section-sub">Ile kosztuje ubezpieczenie mieszkania i domu? Porównujemy warunki, nie tylko ceny.</p>
+    <div class="articles-grid">
+      {% for art in ubezpieczenia %}
+      <a href="ubezpieczenia/{{ art.slug }}/" class="article-card reveal">
+        <div class="article-card-cat">Ubezpieczenie</div>
+        <div class="article-card-title">{{ art.title }}</div>
+        <div class="article-card-desc">{{ art.desc }}</div>
+        <div class="article-card-link">
+          Czytaj ranking
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- REMONTY -->
+<section class="section" id="remonty">
+  <div class="wrap">
+    <div class="section-eyebrow">Ceny i porady</div>
+    <h2 class="section-title">Remonty i wykończenia</h2>
+    <p class="section-sub">Aktualne ceny remontów, wykończeń i materiałów budowlanych. Ile to naprawdę kosztuje w 2026?</p>
+    <div class="articles-grid">
+      {% for art in remonty %}
+      <a href="remonty/{{ art.slug }}/" class="article-card reveal">
+        <div class="article-card-cat">Remont</div>
+        <div class="article-card-title">{{ art.title }}</div>
+        <div class="article-card-desc">{{ art.desc }}</div>
+        <div class="article-card-link">
+          Sprawdź ceny
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}

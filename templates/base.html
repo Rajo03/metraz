@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}{{ meta.site_name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ meta.description }}{% endblock %}">
+<meta name="robots" content="index, follow">
+{% block canonical %}{% endblock %}
+<meta property="og:title" content="{% block og_title %}{{ meta.site_name }}{% endblock %}">
+<meta property="og:description" content="{% block og_desc %}{{ meta.description }}{% endblock %}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pl_PL">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+{% block styles %}{% endblock %}
+</style>
+{% block head_extra %}{% endblock %}
+</head>
+<body>
+
+<header class="site-header">
+  <a href="{% block logo_href %}/{% endblock %}" class="logo">Metr<span>aż</span></a>
+  <nav class="site-nav">
+    <a href="{% block nav_base %}/{% endblock %}#kredyty">Kredyty</a>
+    <a href="{% block nav_base2 %}/{% endblock %}#ubezpieczenia">Ubezpieczenia</a>
+    <a href="{% block nav_base3 %}/{% endblock %}#remonty">Remonty</a>
+    <a href="{% block nav_base4 %}/{% endblock %}#kredyty" class="nav-cta">Porównaj →</a>
+  </nav>
+</header>
+
+{% block content %}{% endblock %}
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Metraż — kalkulatory, rankingi i porady dla kupujących nieruchomości</p>
+    <p class="legal-note">Treści mają charakter informacyjny i nie stanowią porady finansowej ani prawnej. Linki do produktów mogą być linkami afiliacyjnymi — nie wpływa to na nasze oceny. Przed podpisaniem umowy kredytowej skonsultuj się z doradcą finansowym.</p>
+  </div>
+</footer>
+
+<script>
+// Reveal on scroll
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver(entries => {
+  entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } });
+}, { threshold: 0.1 });
+revealEls.forEach(el => io.observe(el));
+
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    document.querySelectorAll('.faq-q').forEach(b => { b.setAttribute('aria-expanded','false'); b.nextElementSibling.classList.remove('open'); });
+    if(!expanded){ btn.setAttribute('aria-expanded','true'); btn.nextElementSibling.classList.add('open'); }
+  });
+});
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>
