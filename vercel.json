@@ -1,0 +1,5 @@
+{
+  "buildCommand": "python generate.py",
+  "outputDirectory": "dist",
+  "framework": null
+}
