@@ -125,6 +125,15 @@ def build():
     (DIST_DIR / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     print(f"  wygenerowano: sitemap.xml ({len(sitemap_urls)} URL)")
 
+    # ── robots.txt ─────────────────────────────────────────────────
+    robots = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        f"\nSitemap: {site_url}/sitemap.xml\n"
+    )
+    (DIST_DIR / "robots.txt").write_text(robots, encoding="utf-8")
+    print("  wygenerowano: robots.txt")
+
     # ── _redirects dla Netlify ─────────────────────────────────────
     redirects = (
         "/kredyty/:slug        /kredyty/:slug/index.html        200\n"
