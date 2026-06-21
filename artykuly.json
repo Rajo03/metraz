@@ -3,9 +3,8 @@
     "site_name": "Metraż",
     "site_url": "https://metraz.pl",
     "description": "Kalkulatory kredytu hipotecznego, rankingi ubezpieczeń nieruchomości i porady remontowe oparte na danych.",
-    "updated": "2026-05-23"
+    "updated": "2026-06-21"
   },
-
   "kredyty": [
     {
       "slug": "kalkulator-kredytu-hipotecznego",
@@ -34,10 +33,22 @@
         }
       ],
       "faq": [
-        { "q": "Ile wynosi rata kredytu 300 000 zł na 30 lat?", "a": "Przy oprocentowaniu 7,5% rata równa wynosi ok. 2 097 zł miesięcznie. Całkowity koszt kredytu: ok. 755 000 zł (spłacasz 455 000 zł odsetek). Przy 25 latach rata byłaby wyższa ok. 2 200 zł, ale całkowity koszt niższy." },
-        { "q": "Ile zarabiam żeby dostać kredyt 400 000 zł?", "a": "Szacunkowo para powinna zarabiać łącznie ok. 7 000–8 000 zł netto przy standardowych zobowiązaniach. Singiel potrzebuje ok. 5 500–6 500 zł netto. Dokładna kwota zależy od banku i okresu kredytowania." },
-        { "q": "Raty równe czy malejące — co wybrać?", "a": "Raty malejące są droższe na początku (ok. 20–30% wyższe pierwsze raty), ale łącznie taniej — płacisz mniej odsetek. Raty równe to niższa pierwsza rata i lepsza zdolność kredytowa. Jeśli możesz sobie pozwolić na wyższą ratę — raty malejące są korzystniejsze finansowo." },
-        { "q": "Kiedy najlepiej brać kredyt hipoteczny?", "a": "Nie da się idealnie przewidzieć stóp procentowych. Ważniejsze jest: czy masz stabilne dochody, odpowiedni wkład własny i potrzebujesz mieszkania. Czekanie na niższe stopy to ryzyko wzrostu cen nieruchomości." }
+        {
+          "q": "Ile wynosi rata kredytu 300 000 zł na 30 lat?",
+          "a": "Przy oprocentowaniu 7,5% rata równa wynosi ok. 2 097 zł miesięcznie. Całkowity koszt kredytu: ok. 755 000 zł (spłacasz 455 000 zł odsetek). Przy 25 latach rata byłaby wyższa ok. 2 200 zł, ale całkowity koszt niższy."
+        },
+        {
+          "q": "Ile zarabiam żeby dostać kredyt 400 000 zł?",
+          "a": "Szacunkowo para powinna zarabiać łącznie ok. 7 000–8 000 zł netto przy standardowych zobowiązaniach. Singiel potrzebuje ok. 5 500–6 500 zł netto. Dokładna kwota zależy od banku i okresu kredytowania."
+        },
+        {
+          "q": "Raty równe czy malejące — co wybrać?",
+          "a": "Raty malejące są droższe na początku (ok. 20–30% wyższe pierwsze raty), ale łącznie taniej — płacisz mniej odsetek. Raty równe to niższa pierwsza rata i lepsza zdolność kredytowa. Jeśli możesz sobie pozwolić na wyższą ratę — raty malejące są korzystniejsze finansowo."
+        },
+        {
+          "q": "Kiedy najlepiej brać kredyt hipoteczny?",
+          "a": "Nie da się idealnie przewidzieć stóp procentowych. Ważniejsze jest: czy masz stabilne dochody, odpowiedni wkład własny i potrzebujesz mieszkania. Czekanie na niższe stopy to ryzyko wzrostu cen nieruchomości."
+        }
       ],
       "oferty": [
         {
@@ -46,7 +57,11 @@
           "logo": "rankomat.pl",
           "typ": "Porównywarka",
           "opis": "Porównaj oferty 15+ banków w 2 minuty",
-          "plusy": ["Bezpłatna porównywarka", "15+ banków jednocześnie", "Ekspert kredytowy online"],
+          "plusy": [
+            "Bezpłatna porównywarka",
+            "15+ banków jednocześnie",
+            "Ekspert kredytowy online"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/rankomat",
           "featured": true,
           "badge": "Bezpłatne"
@@ -57,7 +72,11 @@
           "logo": "lendi.pl",
           "typ": "Doradca online",
           "opis": "Doradca kredytowy bez wychodzenia z domu",
-          "plusy": ["Bezpłatna analiza zdolności", "Negocjuje warunki z bankiem", "Zdalnie lub w oddziale"],
+          "plusy": [
+            "Bezpłatna analiza zdolności",
+            "Negocjuje warunki z bankiem",
+            "Zdalnie lub w oddziale"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/lendi",
           "featured": false
         },
@@ -67,7 +86,11 @@
           "logo": "expander.pl",
           "typ": "Doradca finansowy",
           "opis": "Największa sieć doradców w Polsce",
-          "plusy": ["Ponad 500 doradców w Polsce", "Negocjacja marży z bankiem", "Kompleksowa obsługa wniosku"],
+          "plusy": [
+            "Ponad 500 doradców w Polsce",
+            "Negocjacja marży z bankiem",
+            "Kompleksowa obsługa wniosku"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/expander",
           "featured": false
         }
@@ -100,9 +123,18 @@
         }
       ],
       "faq": [
-        { "q": "Jak szybko poprawić zdolność kredytową?", "a": "Najszybszy efekt: zamknięcie kart kredytowych i limitów (widoczne w BIK po 1–2 miesiącach), spłata drobnych zobowiązań, dodanie współkredytobiorcy. Zmiana pracy na etat — bank wymaga zwykle 3–6 miesięcy okresu próbnego." },
-        { "q": "Czy mogę sprawdzić zdolność kredytową bez wniosku?", "a": "Tak — kalkulator zdolności kredytowej (np. na Rankomat.pl lub Lendi.pl) daje orientacyjny wynik bez zapytania do BIK. Każdy wniosek kredytowy obniża scoring BIK, więc lepiej najpierw sprawdzić orientacyjnie." },
-        { "q": "Jak karta kredytowa wpływa na zdolność?", "a": "Negatywnie — bank liczy 3–5% limitu karty jako miesięczne zobowiązanie, nawet jeśli spłacasz ją w całości każdego miesiąca. Karta z limitem 10 000 zł obniża zdolność jakby miała ratę 300–500 zł/mies." }
+        {
+          "q": "Jak szybko poprawić zdolność kredytową?",
+          "a": "Najszybszy efekt: zamknięcie kart kredytowych i limitów (widoczne w BIK po 1–2 miesiącach), spłata drobnych zobowiązań, dodanie współkredytobiorcy. Zmiana pracy na etat — bank wymaga zwykle 3–6 miesięcy okresu próbnego."
+        },
+        {
+          "q": "Czy mogę sprawdzić zdolność kredytową bez wniosku?",
+          "a": "Tak — kalkulator zdolności kredytowej (np. na Rankomat.pl lub Lendi.pl) daje orientacyjny wynik bez zapytania do BIK. Każdy wniosek kredytowy obniża scoring BIK, więc lepiej najpierw sprawdzić orientacyjnie."
+        },
+        {
+          "q": "Jak karta kredytowa wpływa na zdolność?",
+          "a": "Negatywnie — bank liczy 3–5% limitu karty jako miesięczne zobowiązanie, nawet jeśli spłacasz ją w całości każdego miesiąca. Karta z limitem 10 000 zł obniża zdolność jakby miała ratę 300–500 zł/mies."
+        }
       ],
       "oferty": [
         {
@@ -111,7 +143,11 @@
           "logo": "rankomat.pl",
           "typ": "Porównywarka",
           "opis": "Sprawdź zdolność bez wpływu na BIK",
-          "plusy": ["Bez zapytania do BIK", "Wynik w 2 minuty", "Bezpłatna analiza"],
+          "plusy": [
+            "Bez zapytania do BIK",
+            "Wynik w 2 minuty",
+            "Bezpłatna analiza"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/rankomat",
           "featured": true,
           "badge": "Bez BIK"
@@ -122,7 +158,11 @@
           "logo": "bik.pl",
           "typ": "Raport kredytowy",
           "opis": "Sprawdź swoją historię kredytową",
-          "plusy": ["Raz na 6 miesięcy bezpłatnie", "Pełna historia kredytowa", "Alert BIK — ochrona przed wyłudzeniem"],
+          "plusy": [
+            "Raz na 6 miesięcy bezpłatnie",
+            "Pełna historia kredytowa",
+            "Alert BIK — ochrona przed wyłudzeniem"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/bik",
           "featured": false
         }
@@ -151,9 +191,18 @@
         }
       ],
       "faq": [
-        { "q": "Który bank daje najlepszy kredyt hipoteczny w 2026?", "a": "Nie ma jednej odpowiedzi — zależy od Twojej sytuacji (wkład, dochody, cel). Najniższe marże oferują PKO BP, mBank i ING, ale warunki zależą od profilu klienta. Użyj porównywarki (Rankomat, Lendi) żeby zobaczyć oferty dopasowane do Twojej sytuacji." },
-        { "q": "Jak długo trwa decyzja kredytowa?", "a": "Decyzja wstępna: 1–3 dni robocze. Decyzja ostateczna po dostarczeniu dokumentów: 2–4 tygodnie. Cały proces od wniosku do podpisania umowy: 4–8 tygodni. Z doradcą kredytowym często szybciej." },
-        { "q": "Czy warto skorzystać z doradcy kredytowego?", "a": "Tak — dla klienta jest bezpłatny (bank płaci prowizję), zna oferty wielu banków, negocjuje warunki i pomaga z dokumentacją. Szczególnie polecany przy skomplikowanych sytuacjach (własna działalność, nieregularne dochody)." }
+        {
+          "q": "Który bank daje najlepszy kredyt hipoteczny w 2026?",
+          "a": "Nie ma jednej odpowiedzi — zależy od Twojej sytuacji (wkład, dochody, cel). Najniższe marże oferują PKO BP, mBank i ING, ale warunki zależą od profilu klienta. Użyj porównywarki (Rankomat, Lendi) żeby zobaczyć oferty dopasowane do Twojej sytuacji."
+        },
+        {
+          "q": "Jak długo trwa decyzja kredytowa?",
+          "a": "Decyzja wstępna: 1–3 dni robocze. Decyzja ostateczna po dostarczeniu dokumentów: 2–4 tygodnie. Cały proces od wniosku do podpisania umowy: 4–8 tygodni. Z doradcą kredytowym często szybciej."
+        },
+        {
+          "q": "Czy warto skorzystać z doradcy kredytowego?",
+          "a": "Tak — dla klienta jest bezpłatny (bank płaci prowizję), zna oferty wielu banków, negocjuje warunki i pomaga z dokumentacją. Szczególnie polecany przy skomplikowanych sytuacjach (własna działalność, nieregularne dochody)."
+        }
       ],
       "oferty": [
         {
@@ -162,7 +211,11 @@
           "logo": "lendi.pl",
           "typ": "Doradca kredytowy",
           "opis": "Bezpłatna analiza + negocjacja z bankiem",
-          "plusy": ["20+ banków w jednym miejscu", "Bezpłatny dla klienta", "Negocjuje marżę i prowizję"],
+          "plusy": [
+            "20+ banków w jednym miejscu",
+            "Bezpłatny dla klienta",
+            "Negocjuje marżę i prowizję"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/lendi",
           "featured": true,
           "badge": "Bezpłatny doradca"
@@ -173,14 +226,99 @@
           "logo": "rankomat.pl",
           "typ": "Porównywarka online",
           "opis": "Porównaj oferty samodzielnie online",
-          "plusy": ["Szybkie porównanie online", "Aktualnie oferty banków", "Kalkulator raty"],
+          "plusy": [
+            "Szybkie porównanie online",
+            "Aktualnie oferty banków",
+            "Kalkulator raty"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/rankomat",
           "featured": false
         }
       ]
+    },
+    {
+      "slug": "nadplata-kredytu-hipotecznego",
+      "title": "Nadpłata kredytu hipotecznego w 2026 roku - co warto wiedzieć?",
+      "desc": "Dowiedz się, jakie korzyści niesie nadpłata kredytu hipotecznego w 2026 roku i jak ją skutecznie zrealizować.",
+      "keywords": "nadpłata kredytu hipotecznego, kredyty hipoteczne, oszczędności, finanse, 2026",
+      "h1": "Nadpłata kredytu hipotecznego – korzyści i zasady w 2026 roku",
+      "intro": "Nadpłata kredytu hipotecznego to temat, który zyskuje na znaczeniu w 2026 roku. Warto przyjrzeć się, jakie korzyści oraz zasady związane z nadpłatą kredytów hipotecznych obowiązują obecnie.",
+      "sekcje": [
+        {
+          "h2": "Czym jest nadpłata kredytu hipotecznego?",
+          "tresc": "Nadpłata kredytu hipotecznego polega na spłacie większej kwoty niż wynika to z ustalonego harmonogramu. Dzięki temu można zredukować całkowity koszt kredytu, w tym odsetki, a także skrócić okres spłaty. W 2026 roku, przy średniej wartości kredytu hipotecznego wynoszącej około 400 000 zł, nadpłata o 10 000 zł może zaowocować oszczędnościami rzędu 15 000 zł na odsetkach. Warto jednak pamiętać, że niektóre banki mogą pobierać prowizję za wcześniejszą spłatę, co należy uwzględnić w planach nadpłaty."
+        },
+        {
+          "h2": "Korzyści płynące z nadpłaty kredytu hipotecznego",
+          "tresc": "Decydując się na nadpłatę kredytu hipotecznego, można liczyć na szereg korzyści. Po pierwsze, zmniejszenie całkowitego zadłużenia pozwala na szybsze uzyskanie wolności finansowej. Po drugie, redukcja odsetek oznacza oszczędności, które można przeznaczyć na inne cele, na przykład inwestycje. Warto wspomnieć, że w 2026 roku, przy obecnych stopach procentowych wynoszących około 5%, nadpłacając kredyt o 20 000 zł, można zaoszczędzić na odsetkach nawet 3 000 zł w skali roku. To atrakcyjna perspektywa, która powinna zachęcić do rozważenia tej opcji."
+        },
+        {
+          "h2": "Jak przeprowadzić nadpłatę kredytu hipotecznego?",
+          "tresc": "Aby przeprowadzić nadpłatę kredytu hipotecznego, należy skontaktować się z bankiem, w którym zaciągnięto kredyt. Kluczowe jest zapoznanie się z regulaminem, który określa zasady dokonywania nadpłat. Warto złożyć odpowiedni wniosek, a także zapytać o ewentualne koszty związane z wcześniejszą spłatą. W przypadku większości banków, nadpłatę można wykonać w dowolnym momencie, jednak warto to zrobić w okresach, gdy posiadamy dodatkowe środki. W 2026 roku można również skorzystać z promocyjnych ofert banków, które mogą umożliwiać nadpłaty bez dodatkowych kosztów."
+        },
+        {
+          "h2": "Kiedy nadpłata kredytu hipotecznego jest nieopłacalna?",
+          "tresc": "Nadpłata kredytu hipotecznego nie zawsze jest korzystna. Warto rozważyć sytuacje, w których lepiej jest inwestować pieniądze w inne instrumenty finansowe. Na przykład, jeśli oprocentowanie kredytu wynosi 5%, a zainwestowane środki mogą przynieść 7% zysku rocznie, bardziej opłacalne będzie zainwestowanie nadwyżki. Dodatkowo, jeśli bank pobiera wysoką prowizję za wcześniejszą spłatę, może to zniwelować korzyści z nadpłaty. Dlatego przed podjęciem decyzji warto dokładnie przeanalizować swoją sytuację finansową."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Jak obliczyć korzyści z nadpłaty kredytu hipotecznego?",
+          "a": "Aby obliczyć korzyści z nadpłaty kredytu hipotecznego, należy porównać całkowity koszt kredytu przed i po nadpłacie. Warto skonsultować się z doradcą finansowym, który pomoże w dokładnym wyliczeniu potencjalnych oszczędności na odsetkach oraz wpływu na okres spłaty kredytu."
+        },
+        {
+          "q": "Czy każdy bank pozwala na nadpłatę kredytu hipotecznego?",
+          "a": "Nie wszystkie banki mają identyczne zasady dotyczące nadpłaty kredytów hipotecznych. Warto sprawdzić regulamin swojego banku, ponieważ niektóre z nich mogą wprowadzać ograniczenia lub pobierać prowizje za wcześniejszą spłatę. Zazwyczaj jednak większość instytucji finansowych umożliwia nadpłatę."
+        },
+        {
+          "q": "Jakie są najczęstsze błędy przy nadpłacie kredytu hipotecznego?",
+          "a": "Najczęstsze błędy związane z nadpłatą kredytu hipotecznego to brak analizy kosztów, pomijanie prowizji bankowych oraz niewłaściwe planowanie finansów. Ważne jest, aby przed podjęciem decyzji dokładnie zrozumieć swoją sytuację finansową i skonsultować się z ekspertem."
+        }
+      ],
+      "oferty": []
+    },
+    {
+      "slug": "refinansowanie-kredytu-hipotecznego",
+      "title": "Refinansowanie kredytu hipotecznego w 2026 roku - co warto wiedzieć?",
+      "desc": "Poznaj korzyści refinansowania kredytu hipotecznego w 2026 roku. Zmniejsz swoje raty i oszczędzaj!",
+      "keywords": "refinansowanie kredytu, kredyt hipoteczny, oszczędności, oprocentowanie, rata kredytowa",
+      "h1": "Refinansowanie kredytu hipotecznego - korzyści i zalety w 2026 roku",
+      "intro": "Refinansowanie kredytu hipotecznego to kluczowy krok dla wielu Polaków w 2026 roku. Dzięki temu możesz obniżyć swoje miesięczne raty oraz zaoszczędzić na odsetkach.",
+      "sekcje": [
+        {
+          "h2": "Czym jest refinansowanie kredytu hipotecznego?",
+          "tresc": "Refinansowanie kredytu hipotecznego to proces, w którym zaciągasz nowy kredyt w celu spłaty istniejącego. Dzięki temu możesz skorzystać z korzystniejszych warunków, takich jak niższe oprocentowanie czy dłuższy okres spłaty. W 2026 roku średnie oprocentowanie kredytów hipotecznych w Polsce wynosi około 5,5%. Refinansowanie pozwala na obniżenie tej stawki nawet o 1-2 punkty procentowe, co może przełożyć się na oszczędności rzędu 300-600 zł miesięcznie w przypadku kredytu na 300 000 zł."
+        },
+        {
+          "h2": "Kiedy warto rozważyć refinansowanie?",
+          "tresc": "Refinansowanie kredytu hipotecznego warto rozważyć, gdy oprocentowanie na rynku spada lub gdy zmieniają się Twoje potrzeby finansowe. Jeśli w ciągu ostatnich 12 miesięcy stawki kredytów hipotecznych zmniejszyły się, a Twój kredyt jest na wyższej stawce, refinansowanie może przynieść znaczące oszczędności. Dodatkowo, jeśli Twoje dochody wzrosły, możesz ubiegać się o większy kredyt, co pozwoli na sfinansowanie większych wydatków lub remontów."
+        },
+        {
+          "h2": "Jakie są koszty refinansowania kredytu?",
+          "tresc": "Koszty refinansowania kredytu hipotecznego mogą być różnorodne. W 2026 roku warto zwrócić uwagę na prowizje bankowe, które mogą wynosić od 1% do 3% wartości nowego kredytu. Dodatkowo, mogą wystąpić koszty notarialne oraz opłaty za wycenę nieruchomości. Przykładowo, refinansując kredyt na 300 000 zł, możesz liczyć się z kosztami w wysokości od 3 000 zł do 9 000 zł. Ważne jest, aby porównać te koszty z potencjalnymi oszczędnościami, które przyniesie niższa rata kredytowa."
+        },
+        {
+          "h2": "Jak przebiega proces refinansowania?",
+          "tresc": "Proces refinansowania kredytu hipotecznego zazwyczaj składa się z kilku kroków. Pierwszym jest zebranie dokumentów, takich jak zaświadczenie o dochodach oraz wyciągi bankowe. Następnie należy złożyć wniosek do nowego banku, który oceni Twoją zdolność kredytową. Po pozytywnej decyzji następuje podpisanie umowy i spłata starego kredytu. Warto również rozważyć pomoc doradcy finansowego, który pomoże w wyborze najlepszej oferty i przeprowadzi przez cały proces refinansowania."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy refinansowanie kredytu hipotecznego jest opłacalne?",
+          "a": "Refinansowanie kredytu hipotecznego może być opłacalne, szczególnie jeśli oprocentowanie spadło. Dzięki niższym ratom można zaoszczędzić nawet kilka tysięcy złotych rocznie. Kluczowe jest porównanie kosztów refinansowania z oszczędnościami."
+        },
+        {
+          "q": "Jakie dokumenty są potrzebne do refinansowania?",
+          "a": "Do refinansowania kredytu hipotecznego będziesz potrzebować zaświadczenia o dochodach, wyciągów bankowych oraz dokumentów dotyczących nieruchomości. Warto przygotować także historię spłat dotychczasowego kredytu."
+        },
+        {
+          "q": "Jak długo trwa proces refinansowania kredytu?",
+          "a": "Proces refinansowania kredytu hipotecznego zazwyczaj trwa od kilku tygodni do kilku miesięcy. Czas ten zależy od banku oraz kompletności dostarczonych dokumentów. Warto być cierpliwym i śledzić postępy w procesie."
+        }
+      ],
+      "oferty": []
     }
   ],
-
   "ubezpieczenia": [
     {
       "slug": "ubezpieczenie-mieszkania",
@@ -204,9 +342,18 @@
         }
       ],
       "faq": [
-        { "q": "Czy ubezpieczenie mieszkania jest obowiązkowe?", "a": "Przy kredycie hipotecznym — tak, bank wymaga ubezpieczenia murów z cesją. Bez kredytu — dobrowolne, ale bardzo zalecane. OC w życiu prywatnym jest opcjonalne, ale warto mieć — jedna zalana przez Ciebie podłoga u sąsiada to kilka tysięcy złotych." },
-        { "q": "Jak działa cesja polisy na bank?", "a": "Cesja oznacza, że w razie szkody (np. pożar, zalanie) odszkodowanie trafia do banku, a nie do Ciebie — bank jest zabezpieczony. W praktyce bank zazwyczaj przekazuje pieniądze na naprawę szkody, nie na spłatę kredytu." },
-        { "q": "Co nie jest objęte ubezpieczeniem mieszkania?", "a": "Standardowo wyłączone: umyślne działanie ubezpieczonego, szkody wynikające z braku konserwacji i zaniedbania, zalanie spowodowane nieszczelnością dachu starszą niż określony wiek budynku, powódź (jeśli nie dokupiono opcji), gotówka powyżej limitu." }
+        {
+          "q": "Czy ubezpieczenie mieszkania jest obowiązkowe?",
+          "a": "Przy kredycie hipotecznym — tak, bank wymaga ubezpieczenia murów z cesją. Bez kredytu — dobrowolne, ale bardzo zalecane. OC w życiu prywatnym jest opcjonalne, ale warto mieć — jedna zalana przez Ciebie podłoga u sąsiada to kilka tysięcy złotych."
+        },
+        {
+          "q": "Jak działa cesja polisy na bank?",
+          "a": "Cesja oznacza, że w razie szkody (np. pożar, zalanie) odszkodowanie trafia do banku, a nie do Ciebie — bank jest zabezpieczony. W praktyce bank zazwyczaj przekazuje pieniądze na naprawę szkody, nie na spłatę kredytu."
+        },
+        {
+          "q": "Co nie jest objęte ubezpieczeniem mieszkania?",
+          "a": "Standardowo wyłączone: umyślne działanie ubezpieczonego, szkody wynikające z braku konserwacji i zaniedbania, zalanie spowodowane nieszczelnością dachu starszą niż określony wiek budynku, powódź (jeśli nie dokupiono opcji), gotówka powyżej limitu."
+        }
       ],
       "oferty": [
         {
@@ -215,7 +362,11 @@
           "logo": "mubi.pl",
           "typ": "Porównywarka",
           "opis": "Porównaj 15 ubezpieczycieli w 3 minuty",
-          "plusy": ["15+ ubezpieczycieli", "Najtańsza polisa online", "Bez wychodzenia z domu"],
+          "plusy": [
+            "15+ ubezpieczycieli",
+            "Najtańsza polisa online",
+            "Bez wychodzenia z domu"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/mubi",
           "featured": true,
           "badge": "Porównaj ceny"
@@ -226,7 +377,11 @@
           "logo": "beesafe.pl",
           "typ": "Ubezpieczyciel online",
           "opis": "Szybkie ubezpieczenie 100% online",
-          "plusy": ["Polisa w 5 minut", "Pełny zakres ochrony", "Assistance 24/7"],
+          "plusy": [
+            "Polisa w 5 minut",
+            "Pełny zakres ochrony",
+            "Assistance 24/7"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/beesafe",
           "featured": false
         },
@@ -236,14 +391,58 @@
           "logo": "link4.pl",
           "typ": "Ubezpieczyciel",
           "opis": "Znana marka, szeroki zakres",
-          "plusy": ["Assistance z hydraulikiem", "OC w życiu prywatnym w pakiecie", "Dobra obsługa szkód"],
+          "plusy": [
+            "Assistance z hydraulikiem",
+            "OC w życiu prywatnym w pakiecie",
+            "Dobra obsługa szkód"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/link4",
           "featured": false
         }
       ]
+    },
+    {
+      "slug": "ubezpieczenie-domu-od-powodzi",
+      "title": "Ubezpieczenie domu od powodzi w 2026 roku – co musisz wiedzieć",
+      "desc": "Dowiedz się, jak ubezpieczenie domu od powodzi może chronić Twoją nieruchomość. Sprawdź najlepsze oferty w 2026 roku!",
+      "keywords": "ubezpieczenie domu, powódź, ubezpieczenia nieruchomości, ochrona domu, polisy ubezpieczeniowe",
+      "h1": "Ubezpieczenie domu od powodzi – kompleksowy przewodnik 2026",
+      "intro": "Ubezpieczenie domu od powodzi to kluczowy element ochrony Twojej nieruchomości. W 2026 roku, kiedy zmiany klimatyczne przynoszą coraz więcej ekstremalnych zjawisk, warto wiedzieć, jak zabezpieczyć swoje życie i mienie.",
+      "sekcje": [
+        {
+          "h2": "Dlaczego warto ubezpieczyć dom od powodzi?",
+          "tresc": "Powodzie w Polsce stają się coraz częstsze, a ich skutki mogą być katastrofalne. W 2026 roku, według danych Instytutu Meteorologii i Gospodarki Wodnej, aż 30% gospodarstw domowych w Polsce może być narażonych na straty związane z powodzią. Ubezpieczenie domu od powodzi pozwala na pokrycie kosztów napraw, które mogą sięgać nawet 200 000 zł. Taka polisa nie tylko chroni mienie, ale również zapewnia spokój ducha w trudnych sytuacjach."
+        },
+        {
+          "h2": "Jakie elementy obejmuje ubezpieczenie od powodzi?",
+          "tresc": "Ubezpieczenie domu od powodzi zazwyczaj obejmuje nie tylko straty materialne związane z zalaniem, ale także zniszczenia spowodowane działaniem wody. W ramach polisy można zabezpieczyć m.in. budynek, jego wyposażenie oraz elementy infrastruktury, takie jak ogrodzenia czy chodniki. Warto również zwrócić uwagę na klauzule dodatkowe, które mogą obejmować np. straty związane z utratą plonów w przypadku domów na wsi. Ceny polis zaczynają się od około 500 zł rocznie, w zależności od zakresu ochrony."
+        },
+        {
+          "h2": "Jak wybrać odpowiednią polisę ubezpieczeniową?",
+          "tresc": "Wybór odpowiedniej polisy ubezpieczeniowej powinien być dobrze przemyślany. Ważne jest, aby dokładnie sprawdzić, jakie ryzyka są objęte ochroną oraz jakie są wyłączenia. W 2026 roku wielu ubezpieczycieli oferuje możliwość dostosowania zakresu ochrony do indywidualnych potrzeb. Porównując oferty, zwróć uwagę na wysokość składki, sumy ubezpieczenia oraz opinie innych klientów. Możliwe jest także skorzystanie z pomocy doradcy ubezpieczeniowego, który pomoże w dokonaniu najlepszego wyboru."
+        },
+        {
+          "h2": "Koszty ubezpieczenia domu od powodzi w 2026 roku",
+          "tresc": "Ceny ubezpieczeń domów od powodzi w 2026 roku mogą się znacznie różnić w zależności od lokalizacji oraz wartości nieruchomości. Średnie składki wahają się od 500 zł do 2000 zł rocznie. Warto jednak pamiętać, że w przypadku mieszkań położonych w strefach zagrożonych powodzią, ceny mogą być znacznie wyższe. Dlatego kluczowe jest oszacowanie ryzyka oraz dostosowanie sumy ubezpieczenia do realnych potrzeb. Nie zapominaj także o regularnym przeglądaniu i aktualizacji polisy, aby dostosować ją do zmieniających się warunków."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy mogę ubezpieczyć dom, jeśli jest w strefie powodziowej?",
+          "a": "Tak, możesz ubezpieczyć dom w strefie powodziowej, ale składka może być znacznie wyższa. Warto porównać oferty różnych firm, aby znaleźć najkorzystniejsze warunki."
+        },
+        {
+          "q": "Jakie dokumenty są potrzebne do uzyskania ubezpieczenia od powodzi?",
+          "a": "Zazwyczaj potrzebne będą dokumenty potwierdzające własność nieruchomości, a także informacje dotyczące lokalizacji oraz wartości ubezpieczanego mienia. Ubezpieczyciel może wymagać dodatkowych informacji."
+        },
+        {
+          "q": "Czy ubezpieczenie od powodzi obejmuje również straty w wyposażeniu domu?",
+          "a": "Tak, wiele polis ubezpieczeniowych obejmuje straty w wyposażeniu domu, jednak warto upewnić się, które przedmioty są objęte ochroną. Zazwyczaj wymagane jest również określenie ich wartości."
+        }
+      ],
+      "oferty": []
     }
   ],
-
   "remonty": [
     {
       "slug": "ile-kosztuje-remont-mieszkania",
@@ -271,9 +470,18 @@
         }
       ],
       "faq": [
-        { "q": "Ile kosztuje remont kawalerki (30 m²)?", "a": "Generalny remont kawalerki (malowanie, podłogi, łazienka, kuchnia bez mebli): 25 000–60 000 zł. Odświeżenie (tylko malowanie i podłogi): 5 000–12 000 zł. Ceny zależą od standardu wykończenia i regionu (Warszawa i duże miasta droższe o 20–40%)." },
-        { "q": "Ile trwa remont mieszkania 50 m²?", "a": "Generalny remont: 2–4 miesiące (przy ekipie pracującej regularnie). Remont łazienki: 2–4 tygodnie. Odświeżenie (malowanie, podłogi): 1–2 tygodnie. Czas wydłuża się przy niestandardowych rozwiązaniach, problemach z instalacjami lub niedostępności materiałów." },
-        { "q": "Co jest najtańsze do samodzielnego wykonania?", "a": "Malowanie ścian (po odpowiednim przygotowaniu), montaż paneli podłogowych, montaż oświetlenia (proste punkty), tapetowanie, montaż mebli IKEA. Nie oszczędzaj na: instalacjach elektrycznych, hydraulice, pracach wymagających uprawnień." }
+        {
+          "q": "Ile kosztuje remont kawalerki (30 m²)?",
+          "a": "Generalny remont kawalerki (malowanie, podłogi, łazienka, kuchnia bez mebli): 25 000–60 000 zł. Odświeżenie (tylko malowanie i podłogi): 5 000–12 000 zł. Ceny zależą od standardu wykończenia i regionu (Warszawa i duże miasta droższe o 20–40%)."
+        },
+        {
+          "q": "Ile trwa remont mieszkania 50 m²?",
+          "a": "Generalny remont: 2–4 miesiące (przy ekipie pracującej regularnie). Remont łazienki: 2–4 tygodnie. Odświeżenie (malowanie, podłogi): 1–2 tygodnie. Czas wydłuża się przy niestandardowych rozwiązaniach, problemach z instalacjami lub niedostępności materiałów."
+        },
+        {
+          "q": "Co jest najtańsze do samodzielnego wykonania?",
+          "a": "Malowanie ścian (po odpowiednim przygotowaniu), montaż paneli podłogowych, montaż oświetlenia (proste punkty), tapetowanie, montaż mebli IKEA. Nie oszczędzaj na: instalacjach elektrycznych, hydraulice, pracach wymagających uprawnień."
+        }
       ],
       "oferty": [
         {
@@ -282,7 +490,11 @@
           "logo": "leroymerlin.pl",
           "typ": "Sklep budowlany",
           "opis": "Największy wybór materiałów w Polsce",
-          "plusy": ["Ogromny wybór produktów", "Click & Collect", "Doradztwo w sklepie"],
+          "plusy": [
+            "Ogromny wybór produktów",
+            "Click & Collect",
+            "Doradztwo w sklepie"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/leroy",
           "featured": true,
           "badge": "Największy wybór"
@@ -293,7 +505,11 @@
           "logo": "castorama.pl",
           "typ": "Sklep budowlany",
           "opis": "Szeroki asortyment, dostawa do domu",
-          "plusy": ["Dostawa do domu", "Regularne promocje", "Dobra jakość własnej marki"],
+          "plusy": [
+            "Dostawa do domu",
+            "Regularne promocje",
+            "Dobra jakość własnej marki"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/castorama",
           "featured": false
         },
@@ -303,7 +519,11 @@
           "logo": "oferteo.pl",
           "typ": "Portal wykonawców",
           "opis": "Porównaj oferty lokalnych wykonawców",
-          "plusy": ["Zweryfikowane opinie", "Bezpłatne zapytanie", "Lokalni wykonawcy"],
+          "plusy": [
+            "Zweryfikowane opinie",
+            "Bezpłatne zapytanie",
+            "Lokalni wykonawcy"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/oferteo",
           "featured": false
         }
@@ -331,9 +551,18 @@
         }
       ],
       "faq": [
-        { "q": "Ile trwa remont łazienki?", "a": "Łazienka 4–6 m²: 3–5 tygodni (przy sprawnej ekipie). Łazienka 6–10 m²: 5–8 tygodni. Do tego doliczyć czas schnięcia (wylewki, fugi) — nie da się przyspieszyć. Cały proces z projektem i zakupem materiałów: 2–4 miesiące." },
-        { "q": "Prysznic czy wanna — co jest tańsze w remoncie?", "a": "Kabina prysznicowa jest tańsza w montażu i zajmuje mniej miejsca. Wanna wymaga większej przestrzeni i często wzmocnienia podłogi. Prysznic walk-in (bez brodzika) jest droższy w wykonaniu (hydroizolacja), ale efektowny i łatwy w sprzątaniu." },
-        { "q": "Czy trzeba wymieniać instalację podczas remontu łazienki?", "a": "Jeśli instalacja ma ponad 30–40 lat lub są pierwsze oznaki korozji — warto przy okazji. Koszt wymiany rur przy otwartych ścianach jest wielokrotnie niższy niż po ich zamknięciu. Zawsze sprawdź stan instalacji przed zamurowaniem." }
+        {
+          "q": "Ile trwa remont łazienki?",
+          "a": "Łazienka 4–6 m²: 3–5 tygodni (przy sprawnej ekipie). Łazienka 6–10 m²: 5–8 tygodni. Do tego doliczyć czas schnięcia (wylewki, fugi) — nie da się przyspieszyć. Cały proces z projektem i zakupem materiałów: 2–4 miesiące."
+        },
+        {
+          "q": "Prysznic czy wanna — co jest tańsze w remoncie?",
+          "a": "Kabina prysznicowa jest tańsza w montażu i zajmuje mniej miejsca. Wanna wymaga większej przestrzeni i często wzmocnienia podłogi. Prysznic walk-in (bez brodzika) jest droższy w wykonaniu (hydroizolacja), ale efektowny i łatwy w sprzątaniu."
+        },
+        {
+          "q": "Czy trzeba wymieniać instalację podczas remontu łazienki?",
+          "a": "Jeśli instalacja ma ponad 30–40 lat lub są pierwsze oznaki korozji — warto przy okazji. Koszt wymiany rur przy otwartych ścianach jest wielokrotnie niższy niż po ich zamknięciu. Zawsze sprawdź stan instalacji przed zamurowaniem."
+        }
       ],
       "oferty": [
         {
@@ -342,7 +571,11 @@
           "logo": "leroymerlin.pl",
           "typ": "Sklep budowlany",
           "opis": "Płytki, armatura, kabiny — wszystko w jednym",
-          "plusy": ["Ogromny wybór płytek i armatury", "Projekty łazienek online", "Dostawa i montaż"],
+          "plusy": [
+            "Ogromny wybór płytek i armatury",
+            "Projekty łazienek online",
+            "Dostawa i montaż"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/leroy",
           "featured": true,
           "badge": "Wszystko w jednym"
@@ -353,7 +586,11 @@
           "logo": "castorama.pl",
           "typ": "Sklep budowlany",
           "opis": "Dobry stosunek jakości do ceny",
-          "plusy": ["Własna marka dobrej jakości", "Częste promocje", "Fachowe doradztwo"],
+          "plusy": [
+            "Własna marka dobrej jakości",
+            "Częste promocje",
+            "Fachowe doradztwo"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/castorama",
           "featured": false
         }
@@ -381,9 +618,18 @@
         }
       ],
       "faq": [
-        { "q": "Czy ceny mieszkań będą spadać w 2026?", "a": "Większość analityków prognozuje stabilizację lub umiarkowany wzrost cen. Czynniki wzrostu: rosnące koszty budowy, niedobór gruntów w centrach miast, inflacja. Czynniki hamujące: wysokie stopy procentowe, niższa dostępność kredytów." },
-        { "q": "Kiedy najlepiej kupić mieszkanie?", "a": "Nie ma idealnego momentu rynkowego. Ważniejsze: czy masz stabilną sytuację finansową, zdolność kredytową i planujesz mieszkać w nim min. 5 lat. Próby wyczekania idealnej ceny często kończą się utratą okazji." },
-        { "q": "Jak negocjować cenę mieszkania?", "a": "Na rynku wtórnym: sprawdź jak długo mieszkanie jest w ofercie (powyżej 3 miesięcy = większa przestrzeń do negocjacji), uzasadnij ofertę (koszty remontu, czas na rynku), zacznij od 5–10% poniżej ceny wywoławczej. Na rynku pierwotnym: trudniej negocjować cenę, ale można uzyskać miejsce parkingowe, komórkę lub wyposażenie gratis." }
+        {
+          "q": "Czy ceny mieszkań będą spadać w 2026?",
+          "a": "Większość analityków prognozuje stabilizację lub umiarkowany wzrost cen. Czynniki wzrostu: rosnące koszty budowy, niedobór gruntów w centrach miast, inflacja. Czynniki hamujące: wysokie stopy procentowe, niższa dostępność kredytów."
+        },
+        {
+          "q": "Kiedy najlepiej kupić mieszkanie?",
+          "a": "Nie ma idealnego momentu rynkowego. Ważniejsze: czy masz stabilną sytuację finansową, zdolność kredytową i planujesz mieszkać w nim min. 5 lat. Próby wyczekania idealnej ceny często kończą się utratą okazji."
+        },
+        {
+          "q": "Jak negocjować cenę mieszkania?",
+          "a": "Na rynku wtórnym: sprawdź jak długo mieszkanie jest w ofercie (powyżej 3 miesięcy = większa przestrzeń do negocjacji), uzasadnij ofertę (koszty remontu, czas na rynku), zacznij od 5–10% poniżej ceny wywoławczej. Na rynku pierwotnym: trudniej negocjować cenę, ale można uzyskać miejsce parkingowe, komórkę lub wyposażenie gratis."
+        }
       ],
       "oferty": [
         {
@@ -392,7 +638,11 @@
           "logo": "lendi.pl",
           "typ": "Doradca kredytowy",
           "opis": "Ile możesz pożyczyć na mieszkanie?",
-          "plusy": ["Bezpłatna analiza zdolności", "Oferty 20+ banków", "Bez wpływu na BIK"],
+          "plusy": [
+            "Bezpłatna analiza zdolności",
+            "Oferty 20+ banków",
+            "Bez wpływu na BIK"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/lendi",
           "featured": true,
           "badge": "Sprawdź zdolność"
@@ -403,11 +653,56 @@
           "logo": "mubi.pl",
           "typ": "Porównywarka ubezpieczeń",
           "opis": "Obowiązkowe przy kredycie hipotecznym",
-          "plusy": ["Wymagane przez bank", "Porównaj 15 ubezpieczycieli", "Od 150 zł rocznie"],
+          "plusy": [
+            "Wymagane przez bank",
+            "Porównaj 15 ubezpieczycieli",
+            "Od 150 zł rocznie"
+          ],
           "link": "https://mylead.pl/aff/TWOJ_ID/mubi",
           "featured": false
         }
       ]
+    },
+    {
+      "slug": "ile-kosztuje-wymiana-okien-2026",
+      "title": "Ile kosztuje wymiana okien w 2026 roku? Sprawdź ceny!",
+      "desc": "Zastanawiasz się, ile kosztuje wymiana okien w 2026 roku? Sprawdź aktualne ceny i porady dotyczące wyboru najlepszych opcji.",
+      "keywords": "wymiana okien, koszt wymiany okien, okna cena 2026, remont, usługi budowlane",
+      "h1": "Ile kosztuje wymiana okien w 2026 roku?",
+      "intro": "Wymiana okien to istotny krok w procesie remontu, a w 2026 roku ceny mogą być zaskakujące. Dowiedz się, ile kosztuje wymiana okien i jakie czynniki wpływają na tę decyzję.",
+      "sekcje": [
+        {
+          "h2": "Aktualne ceny wymiany okien w 2026 roku",
+          "tresc": "W 2026 roku ceny wymiany okien w Polsce wahają się od 500 do 1200 zł za jedno okno. Koszt ten zależy od wielu czynników, takich jak rodzaj okien, ich rozmiar oraz materiał, z którego są wykonane. Najpopularniejsze są okna PVC, które w zależności od parametrów cieplnych i akustycznych mogą kosztować od 600 do 900 zł za sztukę. Dodatkowe koszty mogą wiązać się z demontażem starych okien, który wynosi od 50 do 150 zł za okno."
+        },
+        {
+          "h2": "Rodzaje okien i ich wpływ na koszty",
+          "tresc": "Wybór odpowiedniego rodzaju okien ma kluczowe znaczenie dla całkowitego kosztu wymiany. Okna drewniane, chociaż estetyczne, mogą kosztować od 900 do 1200 zł za sztukę. Okna aluminiowe są droższe, ich ceny zaczynają się od 1000 zł. Ważne jest również, aby zwrócić uwagę na parametry energetyczne okien, które mogą wpłynąć na przyszłe oszczędności na ogrzewaniu. Okna o wysokiej izolacyjności mogą być droższe, ale ich zakup zwróci się w dłuższym okresie."
+        },
+        {
+          "h2": "Dodatkowe koszty związane z wymianą okien",
+          "tresc": "Oprócz podstawowego kosztu zakupu okien, warto wziąć pod uwagę dodatkowe wydatki. Koszty montażu wahają się od 100 do 300 zł za okno, w zależności od skomplikowania prac. Dodatkowo, jeśli wymiana okien wiąże się z koniecznością przeprowadzenia prac wykończeniowych, takich jak malowanie lub tynkowanie, należy doliczyć od 200 do 500 zł. Warto również zainwestować w odpowiednie uszczelki i materiały izolacyjne, które mogą zwiększyć komfort użytkowania."
+        },
+        {
+          "h2": "Porady dotyczące wyboru okien",
+          "tresc": "Przy wyborze okien warto kierować się nie tylko ceną, ale również ich jakością. Zaleca się wybór okien z certyfikatami, które potwierdzają ich właściwości izolacyjne. Dobrze jest również skonsultować się z fachowcem, który pomoże ocenić, jakie okna będą najlepiej pasować do konkretnego budynku. Pamiętajmy, że inwestycja w dobre okna to nie tylko wydatek jednorazowy, ale także oszczędności w dłuższym okresie, związane z niższymi rachunkami za energię."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Jakie są najtańsze okna na rynku w 2026 roku?",
+          "a": "Najtańsze okna na rynku w 2026 roku to okna PVC, których ceny zaczynają się od około 500 zł za sztukę. Warto jednak pamiętać, że cena nie zawsze idzie w parze z jakością, dlatego warto zwrócić uwagę na parametry energetyczne."
+        },
+        {
+          "q": "Jak długo trwa wymiana okien?",
+          "a": "Czas wymiany okien w standardowym mieszkaniu zazwyczaj wynosi od jednego do dwóch dni roboczych. Czas ten może się wydłużyć w przypadku bardziej skomplikowanych prac, takich jak demontaż starych okien lub prace wykończeniowe."
+        },
+        {
+          "q": "Czy warto inwestować w okna energooszczędne?",
+          "a": "Tak, inwestycja w okna energooszczędne jest opłacalna. Choć ich cena jest wyższa, to dzięki lepszym parametrom izolacyjnym można zaoszczędzić na kosztach ogrzewania i klimatyzacji, co zwróci się w dłuższym okresie."
+        }
+      ],
+      "oferty": []
     }
   ]
 }
