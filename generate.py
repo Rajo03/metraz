@@ -22,11 +22,32 @@ ROOT          = Path(__file__).parent
 TEMPLATES_DIR = ROOT / "templates"
 DIST_DIR      = ROOT / "dist"
 DATA_FILE     = ROOT / "artykuly.json"
+AFFILIATE_FILE = ROOT.parent / "affiliate_links.json"
+BLOG_KEY      = "metraz-generator"
 
 
 def load_data() -> dict:
     with open(DATA_FILE, encoding="utf-8") as f:
         return json.load(f)
+
+
+def load_affiliate() -> dict:
+    if AFFILIATE_FILE.exists():
+        with open(AFFILIATE_FILE, encoding="utf-8") as f:
+            return json.load(f).get(BLOG_KEY, {})
+    return {}
+
+
+def inject_affiliate(data: dict, affiliate: dict) -> None:
+    """Wstrzykuje linki affiliate do artykułów z pustą tablicą oferty."""
+    kategorie = affiliate.get("kategorie", {})
+    for kat_slug, artykuly in [("kredyty", data.get("kredyty", [])),
+                                ("ubezpieczenia", data.get("ubezpieczenia", [])),
+                                ("remonty", data.get("remonty", []))]:
+        linki = kategorie.get(kat_slug, [])
+        for art in artykuly:
+            if not art.get("oferty") and linki:
+                art["oferty"] = linki
 
 
 def clear_expired_promos(data: dict) -> int:
@@ -60,6 +81,9 @@ def copy_assets():
 def build():
     DIST_DIR.mkdir(exist_ok=True)
     data = load_data()
+    affiliate = load_affiliate()
+    inject_affiliate(data, affiliate)
+    sidebar_oferty = affiliate.get("sidebar", [])
     meta = data["meta"]
     meta["updated"] = date.today().isoformat()
     site_url = meta["site_url"].rstrip("/")
@@ -79,7 +103,7 @@ def build():
 
     # ── Strona główna ──────────────────────────────────────────────
     tmpl_index = env.get_template("index.html")
-    html = tmpl_index.render(**data)
+    html = tmpl_index.render(**data, sidebar_oferty=sidebar_oferty)
     (DIST_DIR / "index.html").write_text(html, encoding="utf-8")
     print("  wygenerowano: dist/index.html")
 
@@ -89,7 +113,8 @@ def build():
         out_dir = DIST_DIR / "kredyty" / art["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)
         html = tmpl_art.render(art=art, meta=meta, base="../../",
-                               kategoria="Kredyty hipoteczne", kat_slug="kredyty")
+                               kategoria="Kredyty hipoteczne", kat_slug="kredyty",
+                               sidebar_oferty=sidebar_oferty)
         (out_dir / "index.html").write_text(html, encoding="utf-8")
         sitemap_urls.append(f"{site_url}/kredyty/{art['slug']}/")
     print(f"  wygenerowano: {len(data.get('kredyty',[]))} podstron kredytów")
@@ -99,7 +124,8 @@ def build():
         out_dir = DIST_DIR / "ubezpieczenia" / art["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)
         html = tmpl_art.render(art=art, meta=meta, base="../../",
-                               kategoria="Ubezpieczenia nieruchomości", kat_slug="ubezpieczenia")
+                               kategoria="Ubezpieczenia nieruchomości", kat_slug="ubezpieczenia",
+                               sidebar_oferty=sidebar_oferty)
         (out_dir / "index.html").write_text(html, encoding="utf-8")
         sitemap_urls.append(f"{site_url}/ubezpieczenia/{art['slug']}/")
     print(f"  wygenerowano: {len(data.get('ubezpieczenia',[]))} podstron ubezpieczeń")
@@ -109,7 +135,8 @@ def build():
         out_dir = DIST_DIR / "remonty" / art["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)
         html = tmpl_art.render(art=art, meta=meta, base="../../",
-                               kategoria="Remonty i ceny", kat_slug="remonty")
+                               kategoria="Remonty i ceny", kat_slug="remonty",
+                               sidebar_oferty=sidebar_oferty)
         (out_dir / "index.html").write_text(html, encoding="utf-8")
         sitemap_urls.append(f"{site_url}/remonty/{art['slug']}/")
     print(f"  wygenerowano: {len(data.get('remonty',[]))} podstron remontów")

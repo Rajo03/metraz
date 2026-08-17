@@ -233,14 +233,15 @@
         </nav>
       </div>
 
-      {% if art.oferty %}
+      {% set oferty_do_wyswietlenia = art.oferty if art.oferty else sidebar_oferty %}
+      {% if oferty_do_wyswietlenia %}
       <div class="sidebar-box">
         <div class="sidebar-box-title">Polecane usługi</div>
-        {% for o in art.oferty %}
+        {% for o in oferty_do_wyswietlenia %}
         <div style="padding:10px 0;border-bottom:1px solid var(--border);{% if loop.last %}border:none{% endif %}">
-          <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:2px">{{ o.name }}</div>
-          <div style="font-size:12px;color:var(--text-muted);margin-bottom:6px">{{ o.shop }}</div>
-          <a href="{{ o.link }}" target="_blank" rel="noopener sponsored" style="font-size:12px;color:var(--blue);font-weight:600">Sprawdź →</a>
+          <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:2px">{{ o.nazwa or o.name }}</div>
+          <div style="font-size:12px;color:var(--text-muted);margin-bottom:6px">{{ o.opis or o.shop }}</div>
+          <a href="{{ o.url or o.link }}" target="_blank" rel="noopener sponsored" style="font-size:12px;color:var(--blue);font-weight:600">{{ o.cta or 'Sprawdź' }} →</a>
         </div>
         {% endfor %}
       </div>
