@@ -488,6 +488,130 @@
         }
       ],
       "oferty": []
+    },
+    {
+      "slug": "refinansowanie-kredytu-mbank",
+      "title": "Refinansowanie kredytu hipotecznego w mBanku - krok po kroku (2026)",
+      "desc": "Jak refinansowac kredyt hipoteczny w mBanku? Sprawdz warunki, koszty i czy oplaca sie przeniesc kredyt do mBanku.",
+      "keywords": "refinansowanie kredytu mbank, mbank nadplata kredytu hipotecznego, przeniesienie kredytu do mbanku, refinansowanie hipoteki",
+      "h1": "Refinansowanie kredytu hipotecznego w mBanku - krok po kroku",
+      "intro": "mBank regularnie pojawia sie w rankingach najtanszych kredytow hipotecznych. Jesli twoj aktualny bank oferuje wyzsze oprocentowanie, refinansowanie do mBanku moze zmniejszyc rate o kilkaset zlotych miesiecznie. Sprawdz jak to zrobic.",
+      "sekcje": [
+        {
+          "h2": "Czym jest refinansowanie kredytu hipotecznego?",
+          "tresc": "Refinansowanie to splacenie kredytu hipotecznego w jednym banku przez nowy kredyt w innym banku, na korzystniejszych warunkach. Cel: nizsze oprocentowanie (mniejsza rata), krotszy okres kredytowania, konsolidacja innych zobowiazan lub zmiana waluty kredytu. Refinansowanie oplaca sie gdy roznica w oprocentowaniu wynosi min. 0,5-1 pp. i zostalo co najmniej 5 lat splaty."
+        },
+        {
+          "h2": "Oferta mBanku - aktualne warunki refinansowania",
+          "tresc": "mBank oferuje kredyt hipoteczny z oprocentowaniem od 6,89% (WIRON + marza od 1,2 pp.) w wersji z ubezpieczeniem. LTV do 80% bez wkladu dodatkowego. Mozliwa karencja w splacie kapitalu do 12 miesiecy. eKspert mBanku - doradca online bez wychodzenia z domu. Wazne: aktualne warunki sprawdz bezposrednio w mBanku."
+        },
+        {
+          "h2": "Jak refinansowac kredyt hipoteczny - krok po kroku",
+          "tresc": "Krok 1: Zbierz dokumenty - zaswiadczenie o saldzie z obecnego banku, wyciagi z konta za 3-6 miesiecy, dokumenty nieruchomosci. Krok 2: Zloz wniosek w mBanku (online lub w oddziale). Krok 3: Wycena nieruchomosci przez rzeczoznawce mBanku (koszt 400-700 zl). Krok 4: Decyzja kredytowa (zwykle 14-21 dni). Krok 5: Podpisanie umowy i splata starego kredytu. Krok 6: Wykreslenie starego wpisu hipotecznego i wpisanie nowego (sad, 200 zl)."
+        },
+        {
+          "h2": "Koszty refinansowania - co warto policzyc",
+          "tresc": "Oplaty jednorazowe: wczesniejsza splata w starym banku (zwykle 0% po 3 latach), wycena nieruchomosci 400-700 zl, prowizja za udzielenie kredytu w mBanku (0-2%), podatek PCC 0,19% od wpisania hipoteki, oplaty sadowe ok. 200-400 zl. Laczne koszty refinansowania: 2000-8000 zl. Porownaj z roczna oszczednoscia na racie - prog zwrotu powinien wynosic max. 2-3 lata."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy mBank przyjmie kredyt z innego banku?",
+          "a": "Tak - mBank aktywnie pozyskuje klientow refinansujacych z innych bankow. Warunki: stala praca lub dzialalnosc gospodarcza, zdolnosc kredytowa na aktualna kwote dlugu, LTV ponizej 80-90%. Nie wymaga sprzedazy nieruchomosci."
+        },
+        {
+          "q": "Ile trwa refinansowanie w mBanku?",
+          "a": "Od zlozenia wniosku do wyplaty: 3-6 tygodni. Decyzja kredytowa: 14-21 dni. Wycena nieruchomosci: 5-10 dni. Podpisanie umowy i wyplata: kolejne 5-7 dni. Wykreslenie starego wpisu hipotecznego: 1-3 miesiace (sad)."
+        },
+        {
+          "q": "Co to jest nadplata kredytu w mBanku?",
+          "a": "Nadplata to wplata dodatkowych srodkow na poczet kapitalu kredytu. W mBanku mozna nadplacac bez dodatkowych oplat (po 36 miesiacach od uruchomienia). Nadplata zmniejsza saldo i mozesz wybrac: skrocic okres kredytowania lub obnizac rate."
+        }
+      ],
+      "oferty": []
+    },
+    {
+      "slug": "nadplata-kredytu-a-odsetki-ile-oszczedzasz",
+      "title": "Nadplata kredytu a odsetki - ile realnie oszczedzasz? Kalkulator",
+      "desc": "Ile zaoszczedzisz nadplacajac kredyt hipoteczny? Sprawdz realne przyklady liczbowe i kalkulator oszczednosci na odsetkach.",
+      "keywords": "nadplata kredytu hipotecznego odsetki, ile oszczedzam nadplacajac kredyt, nadplata kredytu kalkulator, warto nadplacac kredyt hipoteczny",
+      "h1": "Nadplata kredytu hipotecznego - ile realnie oszczedzasz na odsetkach?",
+      "kalkulator": true,
+      "intro": "Nadplata kredytu hipotecznego to jedna z najbezpieczniejszych inwestycji - gwarantowany zwrot w wysokosci oprocentowania kredytu. Przy kredycie 400 000 zl na 25 lat i oprocentowaniu 7%, jednorazowa nadplata 20 000 zl oszczedza ponad 40 000 zl odsetek. Sprawdz liczby dla swojego kredytu.",
+      "sekcje": [
+        {
+          "h2": "Jak dziala nadplata kredytu hipotecznego?",
+          "tresc": "Kazda rata kredytu sklada sie z czesci kapitalowej i odsetkowej. Na poczatku splaty odsetki stanowia 80-90% raty. Nadplata trafia bezposrednio na kapital, od ktorego naliczane sa odsetki. Mniejszy kapital = mniejsze odsetki w kazdej przyszlej racie. Im wczesniej nadplacasz, tym wiecej oszczedzasz - bo oszczednosc nalicza sie na caly pozostaly okres."
+        },
+        {
+          "h2": "Przyklad liczbowy: kredyt 400 000 zl, 25 lat, 7%",
+          "tresc": "Calkowite odsetki bez nadplat: ok. 425 000 zl. Lacznie splaca sie: 825 000 zl. Nadplata 20 000 zl po roku: oszczednosc ok. 42 000 zl odsetek, skrocenie okresu o 2,5 roku. Nadplata 50 000 zl po roku: oszczednosc ok. 104 000 zl odsetek, skrocenie okresu o 6 lat. Nadplata 1000 zl/miesiac (co miesiac): oszczednosc ok. 180 000 zl, skrocenie okresu o 10 lat."
+        },
+        {
+          "h2": "Nadplata jednorazowa czy regularna - co sie bardziej oplaca?",
+          "tresc": "Nadplaty regularne (np. 500-1000 zl/mies.) sa skuteczniejsze niz jednorazowe wplaty tej samej sumy raz na rok - bo szybciej redukuja kapital, od ktorego co miesiac naliczane sa odsetki. Wyjetek: jezeli odklaasz na nadplate przez caly rok i oprocentowanie lokat (5-6%) jest wyzsze niz koszt kredytu, mozna chwilowo trzymac pieniadze na lokacie."
+        },
+        {
+          "h2": "Skrocenie okresu czy obnizenie raty - co wybrac?",
+          "tresc": "Skrocenie okresu: po nadplacie rata zostaje taka sama, ale splaca sie szybciej. Oszczedza sie WIECEJ na odsetkach. Obnizenie raty: po nadplacie mozna placic mniej co miesiac. Daje wiekszy bufor bezpieczenstwa, ale oszczedza sie mniej na odsetkach. Rekomendacja: przy stabilnych dochodach - wybierz skrocenie okresu. Przy obawie o przyszle dochody - obnizenie raty daje komfort."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ile mozna zaoszczedzic nadplacajac kredyt?",
+          "a": "Przy kredycie 300 000 zl na 25 lat i oprocentowaniu 7%: nadplata 10 000 zl po 2 latach = oszczednosc ok. 21 000 zl odsetek. Nadplata 500 zl miesiecznie = oszczednosc ok. 110 000 zl i skrocenie okresu o 8 lat. Kazda zlotowka nadplaty zarabia tyle, ile wynosi oprocentowanie kredytu."
+        },
+        {
+          "q": "Czy bank moze pobierac oplata za nadplate?",
+          "a": "Banki moga pobierac prowizje za wczesniejsza splate tylko przez pierwsze 3 lata od uruchomienia kredytu hipotecznego (ustawa 2017). Po 3 latach nadplata jest bezplatna. Wiekszosc bankow rezygnuje z prowizji nawet w pierwszych 3 latach."
+        },
+        {
+          "q": "Czy lepiej nadplacac kredyt czy inwestowac?",
+          "a": "Zalezny od stopy oprocentowania kredytu vs oczekiwanej stopy zwrotu. Przy kredycie 7%: nadplata = gwarantowany zwrot 7%. ETF na indeks daje historycznie 8-10%, ale z ryzykiem. Rekomendacja: najpierw zbuduj poduszke finansowa (3-6 miesiecy wydatkow), potem nadplacaj lub inwestuj."
+        }
+      ],
+      "oferty": []
+    },
+    {
+      "slug": "refinansowanie-vs-nadplata-co-sie-bardziej-oplaca-2026",
+      "title": "Refinansowanie czy nadplata kredytu - co sie bardziej oplaca w 2026?",
+      "desc": "Porownanie: refinansowanie kredytu hipotecznego vs nadplata. Sprawdz ktory wariant oszczedza wiecej pieniedzy w 2026.",
+      "keywords": "refinansowanie czy nadplata kredytu, co bardziej sie oplaca refinansowanie kredytu, nadplata vs refinansowanie hipoteka 2026",
+      "h1": "Refinansowanie czy nadplata kredytu hipotecznego - co wybrac w 2026?",
+      "intro": "Masz kredyt hipoteczny i zastanawiasz sie jak zminimalizowac jego koszt? Dwie glowne strategie to refinansowanie (nizsze oprocentowanie w innym banku) i nadplata (szybsza splata kapitalu). Nie zawsze jedno wyklucza drugie.",
+      "sekcje": [
+        {
+          "h2": "Refinansowanie - kiedy warto zmienic bank?",
+          "tresc": "Refinansowanie oplaca sie gdy: oprocentowanie w nowym banku jest o min. 0,5-1 pp. nizsze, zostalo co najmniej 5-8 lat splaty, twoja nieruchomosc zyskala na wartosci (lepsze LTV = nizsza marza). Przyklad: kredyt 350 000 zl, 20 lat, 8,5% -> refinansowanie na 7,0% = oszczednosc 490 zl/mies., zwrot kosztow refinansowania (ok. 6000 zl) w 12 miesiecy."
+        },
+        {
+          "h2": "Nadplata - kiedy lepiej zostac w swoim banku?",
+          "tresc": "Nadplata jest lepsza gdy: roznica w oprocentowaniu miedzy bankami jest mala (< 0,5 pp.), twoj kredyt jest starszy niz 15-18 lat (malo czasu na odrobienie kosztow refinansowania), nieruchomosc stracila na wartosci (LTV > 80%). Nadplata nie wymaga formalnosci - dziala od razu i bez kosztow (po 3 latach)."
+        },
+        {
+          "h2": "Porownanie - refinansowanie vs nadplata",
+          "tresc": "Scenariusz: kredyt 400 000 zl, zostalo 20 lat, oprocentowanie 8,5%. Opcja A - refinansowanie do 7,0%: oszczednosc na racie ok. 560 zl/mies., po 20 latach lacznie ok. 135 000 zl, minus koszty refinansowania ~7000 zl = netto 128 000 zl. Opcja B - nadplata 1000 zl/miesiac (przy 8,5%): oszczednosc ok. 165 000 zl odsetek + skrocenie okresu o ok. 8 lat. Opcja C - refinansowanie + nadplata = lacznie ok. 220 000 zl oszczednosci."
+        },
+        {
+          "h2": "Jak podjac decyzje - checklista",
+          "tresc": "Krok 1: Sprawdz aktualne oprocentowanie twojego kredytu. Krok 2: Pobierz oferty z 3 bankow (ING, mBank, PKO BP). Krok 3: Policz prog zwrotu: koszty refinansowania / mieseczna oszczednosc = ile miesiecy do zwrotu. Krok 4: Jezeli prog zwrotu < 24 miesiace i masz > 7 lat do konca - refinansuj. Krok 5: Niezaleznie od decyzji - zacznij nadplacac co miesiac choćby 200-500 zl."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Czy mozna refinansowac i jednoczesnie nadplacac?",
+          "a": "Tak - to najlepsza strategia. Po refinansowaniu do nizszego oprocentowania, zaoszczedzona roznice w racie przeznaczaj na nadplate. Np. refinansowanie obnizyle rate o 500 zl - te 500 zl kieruj co miesiac na nadplate. Laczna oszczednosc jest znacznie wyzsza niz przy kazdej strategii osobno."
+        },
+        {
+          "q": "Jak dlugo trwa refinansowanie kredytu?",
+          "a": "Od zlozenia wniosku do wyplaty: 3-6 tygodni. Po uplywie tego czasu nowy bank splaca stary kredyt i zaczyna prowadzic kredyt na nowych warunkach. Przez caly ten czas kontynuuje sie splate do starego banku."
+        },
+        {
+          "q": "Czy refinansowanie wplynie na zdolnosc kredytowa?",
+          "a": "Tak - zlozone wnioski pojawiaja sie w BIK. Kilka zapytan w krotkim czasie moze chwilowo obnizyc scoring. Zalecenie: skladaj wnioski w 2-3 bankach w ciagu 30 dni - scoringi BIK traktuja to jako jedno zapytanie przy hipotekach."
+        }
+      ],
+      "oferty": []
     }
   ],
   "ubezpieczenia": [
@@ -717,6 +841,47 @@
         {
           "q": "Jak długo trwa proces likwidacji szkody?",
           "a": "Proces likwidacji szkody może trwać od kilku dni do kilku tygodni, w zależności od skomplikowania sprawy i szybkości dostarczenia dokumentów. Warto być w stałym kontakcie z ubezpieczycielem."
+        }
+      ],
+      "oferty": []
+    },
+    {
+      "slug": "ubezpieczenie-od-powodzi-vs-zalania-roznice",
+      "title": "Ubezpieczenie od powodzi czy od zalania - czym sie roznia i co wybrac?",
+      "desc": "Poznaj roznice miedzy ubezpieczeniem od powodzi a zalania domu lub mieszkania. Co obejmuje kazda polisa i ktora wybrac?",
+      "keywords": "ubezpieczenie od powodzi vs zalania, roznica powodz zalanie ubezpieczenie, ubezpieczenie domu od powodzi i zalania",
+      "h1": "Ubezpieczenie od powodzi vs zalania - czym sie roznia?",
+      "intro": "Woda w domu to rozne scenariusze: powodz to katastrofa naturalna (wylew rzeki, cofanie sie kanalizacji burzowej), zalanie to problem wewnetrzny (peknieta rura, awaria pralki, sasiad z gory). Ubezpieczenia obejmuja te ryzyka inaczej.",
+      "sekcje": [
+        {
+          "h2": "Zalanie - co obejmuje standardowa polisa?",
+          "tresc": "Zalanie (woda z wlasnego lokalu lub od sasiada) jest standardowo ujete w wiekszosci polis majatkowych. Obejmuje: pekniecie rur wewnetrznych, awaria pralki/zmywarki/bojlera, zalanie przez nieszczelny dach (nie z opadow atmosferycznych wprost), zalanie przez sasiada z gory. Wazne: ubezpieczenie pokrywa szkody w twoim mieszkaniu - szkody u sasiada pokrywa twoje OC w zyciu prywatnym."
+        },
+        {
+          "h2": "Powodz - dlaczego to inne ryzyko?",
+          "tresc": "Powodz to woda naplywajaca z zewnatrz: wylanie rzeki lub jeziora, podtopienie terenu przez opady, cofanie sie wody z kanalizacji burzowej, deszcz nawalny zalewajacy parter. To ryzyko katastroficzne - ubezpieczyciele traktuja je osobno i czesto: wykluczaja z pakietow podstawowych, oferuja jako rozszerzenie za doplata, calkowicie wykluczaja dla nieruchomosci na terenach zalewowych (strefy C i D w mapach ISOK)."
+        },
+        {
+          "h2": "Jak sprawdzic czy polisa obejmuje powodz?",
+          "tresc": "Sprawdz w OWU (Ogolnych Warunkach Ubezpieczenia) w sekcji definicje zdarzen objetych ochrona lub wylaczenia odpowiedzialnosci. Szukaj slow: powodz, podtopienie, deszcz nawalny, cofanie sie wod z kanalizacji. Jesli tych slow nie ma w sekcji ochrona - nie jestes ubezpieczony od powodzi. Zadzwon do agenta i zapytaj wprost."
+        },
+        {
+          "h2": "Co wybrac - rekomendacje",
+          "tresc": "Mieszkanie w bloku na wyzszych pietrach: wystarczy standardowa polisa z zalaniem i OC w zyciu prywatnym. Parter/suterena w miescie: koniecznie dodaj rozszerzenie o deszcz nawalny i cofanie sie kanalizacji. Dom jednorodzinny: pelny pakiet z powodzia, podtopieniem, deszczem nawalnym - roznica w skladce to zwykle 100-300 zl/rok. Dom w strefie zalewowej: sprawdz mape ISOK na geoportal.gov.pl."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ile kosztuje ubezpieczenie od powodzi?",
+          "a": "Rozszerzenie polisy majatkowej o ryzyko powodzi i podtopienia kosztuje zwykle 100-350 zl/rok dla mieszkania i 200-600 zl/rok dla domu. Dla nieruchomosci w strefach zalewowych skladka moze byc wielokrotnie wyzsza lub ryzyko zostaje wylaczone."
+        },
+        {
+          "q": "Co zrobic gdy doslo do zalania lub podtopienia?",
+          "a": "Dzialaj szybko: 1. Udokumentuj szkode - zdjecia i filmy przed jakimkolwiek sprzataniem. 2. Zabezpiecz majatek przed dalszymi szkodami. 3. Zglos szkode do ubezpieczyciela w ciagu 3-7 dni. 4. Nie wyrzucaj zniszczonych rzeczy przed ogledninami likwidatora."
+        },
+        {
+          "q": "Czy ubezpieczenie pokrywa zalanie od sasiada?",
+          "a": "Twoja wlasna polisa pokrywa szkody u ciebie, bez wzgledu na wine sasiada. Za szkody u sasiada spowodowane przez twoje zaniedbanie odpowiada twoje OC w zyciu prywatnym. Dlatego warto miec oba: ubezpieczenie mienia + OC."
         }
       ],
       "oferty": []
@@ -1104,6 +1269,47 @@
         {
           "q": "Jakie są sposoby na oszczędności podczas remontu kuchni?",
           "a": "Aby zaoszczędzić na remoncie kuchni, warto porównać oferty dostawców, rozważyć samodzielne wykonanie niektórych prac oraz poszukiwać promocji w sklepach budowlanych. Użycie materiałów z recyklingu to także świetny sposób na redukcję kosztów."
+        }
+      ],
+      "oferty": []
+    },
+    {
+      "slug": "koszt-wymiany-okien-pcv-cennik-2026",
+      "title": "Koszt wymiany okien PCV - cennik za m2 i całe okno (2026)",
+      "desc": "Ile kosztuje wymiana okien PCV w 2026? Sprawdz ceny za okno, cennik robocizny i jak zaoszczedzic na wymianie.",
+      "keywords": "koszt wymiany okien pcv, ile kosztuje wymiana okna pcv, cennik okna pcv 2026, wymiana okien robocizna",
+      "h1": "Koszt wymiany okien PCV 2026 - cennik za m2 i całe okno",
+      "intro": "Wymiana okien PCV to jeden z lepszych sposobow na obnizenie rachunkow za ogrzewanie i poprawe komfortu w domu. Ceny zaleza od rozmiaru, producenta i regionu - sprawdz aktualne stawki, zeby dobrze zabudzetowac inwestycje.",
+      "sekcje": [
+        {
+          "h2": "Cennik okien PCV 2026 - ile kosztuje jedno okno?",
+          "tresc": "Okno standardowe 120x120 cm: 800-1600 zl (samo okno). Okno 150x150 cm: 1200-2400 zl. Okno balkonowe (drzwi tarasowe 90x210 cm): 1500-3500 zl. Ceny obejmuja samo okno; montaz i materialy to osobne koszty. Okna renomowanych producentow (Rehau, Veka, Schuco) kosztuja 30-50% wiecej, ale maja lepsza izolacje i trwalsza rame."
+        },
+        {
+          "h2": "Koszt robocizny - wymiana jednego okna",
+          "tresc": "Demontaz starego okna: 100-200 zl. Montaz nowego okna (do 150x150 cm): 200-400 zl. Obrobka tynkarska wokol okna (wewnatrz i na zewnatrz): 150-350 zl. Laczny koszt montazu jednego okna: 450-950 zl. Przy wymianie 8-10 okien w calym domu warto negocjowac stawki - ekipy czesto obnizaja cene jednostkowa przy duzym zleceniu o 15-25%."
+        },
+        {
+          "h2": "Ile kosztuje wymiana wszystkich okien w domu?",
+          "tresc": "Mieszkanie 50 m2 (5-6 okien): okna 6000-12000 zl + montaz 3000-5000 zl = lacznie 9000-17000 zl. Dom jednorodzinny (10-14 okien + drzwi balkonowe): okna 14000-28000 zl + montaz 6000-10000 zl = lacznie 20000-38000 zl. Dofinansowanie z programu Czyste Powietrze moze pokryc czesc kosztow - do 17000 zl na okna i drzwi zewnetrzne."
+        },
+        {
+          "h2": "Jak zaoszczedzic na wymianie okien?",
+          "tresc": "Sprawdzone sposoby na obnizenie kosztow: porownaj oferty min. 3 firm montazowych, kup okna bezposrednio u producenta lub hurtowni (z pominieciem sklepu), wybierz montaz jesienia lub zima (nizszy popyt = nizsze ceny), zapytaj o dofinansowanie z Czystego Powietrza, zdecyduj sie na profil 5-komorowy zamiast 7-komorowego - roznica izolacji jest minimalna, a oszczednosc 20-30%."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ile kosztuje wymiana okna PCV w bloku?",
+          "a": "Standardowe okno w bloku (90x150 cm): 700-1400 zl (okno) + 400-700 zl (montaz i obrobka) = lacznie 1100-2100 zl. W bloku montaz jest latwiejszy niz w domu (mniejsze uskoki), wiec robocizna jest nieco tansza."
+        },
+        {
+          "q": "Jak dlugo trwa wymiana okien w mieszkaniu?",
+          "a": "Wymiana 5-6 okien w mieszkaniu zajmuje 1-2 dni robocze sprawnej ekipie. Po montazu okna sa od razu szczelne i funkcjonalne; obrobki tynkarskie mozna dokonczyc w ciagu tygodnia."
+        },
+        {
+          "q": "Okno 3-szybowe czy 2-szybowe - co wybrac?",
+          "a": "3-szybowe (Ug=0,6 W/m2K) sa lepiej izolowane termicznie i zmniejszaja koszty ogrzewania o 15-25% w porownaniu do starszych 2-szybowych. Kosztuja 20-35% wiecej, ale zwracaja sie w 5-8 lat. Obowiazkowe przy domach pasywnych i energooszczednych."
         }
       ],
       "oferty": []
