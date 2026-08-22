@@ -1,7 +1,7 @@
 {
   "meta": {
     "site_name": "Metraż",
-    "site_url": "https://metraz.pl",
+    "site_url": "https://metraz.vercel.app",
     "description": "Kalkulatory kredytu hipotecznego, rankingi ubezpieczeń nieruchomości i porady remontowe oparte na danych.",
     "updated": "2026-06-21"
   },
