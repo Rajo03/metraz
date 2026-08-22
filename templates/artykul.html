@@ -168,15 +168,19 @@
         <div class="offer-card reveal{% if o.featured %} featured{% endif %}">
           {% if o.badge %}<div class="offer-badge">{{ o.badge }}</div>{% endif %}
           <div class="offer-logo">
+            {% if o.logo %}
             <img src="{{ base }}logos-metraz/{{ o.logo }}.png"
-                 onerror="if(!this.dataset.f1){this.dataset.f1=1;this.src='https://www.google.com/s2/favicons?domain={{ o.logo }}&sz=64';return};this.style.display='none';this.nextElementSibling.style.display='flex'"
-                 alt="{{ o.shop }}" loading="lazy" style="width:100%;height:100%;object-fit:contain;padding:6px">
-            <div class="offer-logo-abbr" style="display:none">{{ o.shop[:3]|upper }}</div>
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+                 alt="{{ o.shop or o.nazwa or '' }}" loading="lazy" style="width:100%;height:100%;object-fit:contain;padding:6px">
+            <div class="offer-logo-abbr" style="display:none">{{ (o.shop or o.nazwa or '')[:3]|upper }}</div>
+            {% else %}
+            <div class="offer-logo-abbr">{{ (o.shop or o.nazwa or '')[:3]|upper }}</div>
+            {% endif %}
           </div>
           <div class="offer-body">
-            <div class="offer-name">{{ o.name }}</div>
-            <div class="offer-shop">{{ o.shop }} · {{ o.typ }}</div>
-            <div class="offer-cena">{{ o.opis }}</div>
+            <div class="offer-name">{{ o.name or o.nazwa }}</div>
+            <div class="offer-shop">{{ o.shop or o.nazwa }}{% if o.typ %} · {{ o.typ }}{% endif %}</div>
+            <div class="offer-cena">{{ o.opis or '' }}</div>
             {% if o.plusy %}
             <div class="offer-plusy">
               {% for p in o.plusy[:2] %}
@@ -189,10 +193,10 @@
             {% endif %}
           </div>
           <div class="offer-right">
-            <a href="{{ o.link }}" class="btn-offer" target="_blank" rel="noopener sponsored">Sprawdź →</a>
+            <a href="{{ o.link or o.url }}" class="btn-offer" target="_blank" rel="noopener sponsored">{{ o.cta or 'Sprawdź' }} →</a>
           </div>
           <div class="offer-mobile-btns">
-            <a href="{{ o.link }}" class="btn-offer" target="_blank" rel="noopener sponsored" style="width:100%;justify-content:center">Sprawdź →</a>
+            <a href="{{ o.link or o.url }}" class="btn-offer" target="_blank" rel="noopener sponsored" style="width:100%;justify-content:center">{{ o.cta or 'Sprawdź' }} →</a>
           </div>
         </div>
         {% endfor %}
@@ -235,15 +239,16 @@
 
       {% set oferty_do_wyswietlenia = art.oferty if art.oferty else sidebar_oferty %}
       {% if oferty_do_wyswietlenia %}
-      <div class="sidebar-box">
+      <div class="sidebar-box sidebar-offers">
         <div class="sidebar-box-title">Polecane usługi</div>
         {% for o in oferty_do_wyswietlenia %}
-        <div style="padding:10px 0;border-bottom:1px solid var(--border);{% if loop.last %}border:none{% endif %}">
-          <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:2px">{{ o.nazwa or o.name }}</div>
-          <div style="font-size:12px;color:var(--text-muted);margin-bottom:6px">{{ o.opis or o.shop }}</div>
-          <a href="{{ o.url or o.link }}" target="_blank" rel="noopener sponsored" style="font-size:12px;color:var(--blue);font-weight:600">{{ o.cta or 'Sprawdź' }} →</a>
+        <div class="sidebar-offer-item{% if loop.last %} last{% endif %}">
+          <div class="sidebar-offer-name">{{ o.nazwa or o.name }}</div>
+          <div class="sidebar-offer-desc">{{ o.opis or o.shop }}</div>
+          <a href="{{ o.url or o.link }}" target="_blank" rel="noopener sponsored" class="sidebar-offer-link">{{ o.cta or 'Sprawdź' }} →</a>
         </div>
         {% endfor %}
+        <p class="sidebar-aff-note">* Linki sponsorowane</p>
       </div>
       {% endif %}
 
