@@ -161,6 +161,12 @@ def build():
     (DIST_DIR / "robots.txt").write_text(robots, encoding="utf-8")
     print("  wygenerowano: robots.txt")
 
+    # ── ads.txt (AdSense) ──────────────────────────────────────────
+    (DIST_DIR / "ads.txt").write_text(
+        "google.com, pub-9406644927707143, DIRECT, f08c47fec0942fa0\n", encoding="utf-8"
+    )
+    print("  wygenerowano: ads.txt")
+
     # ── _redirects dla Netlify ─────────────────────────────────────
     redirects = (
         "/kredyty/:slug        /kredyty/:slug/index.html        200\n"
