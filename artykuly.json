@@ -837,6 +837,51 @@
         }
       ],
       "oferty": []
+    },
+    {
+      "slug": "zdolnosc-kredytowa-jak-obliczyc-krok-po-kroku",
+      "title": "Zdolność kredytowa: jak obliczyć krok po kroku",
+      "desc": "Oblicz zdolność kredytową krok po kroku! Sprawdź, jak to zrobić i jakie czynniki wpływają na decyzję banku.",
+      "keywords": "zdolność kredytowa, jak obliczyć zdolność kredytową, kredyt hipoteczny, czynniki wpływające na zdolność kredytową, kalkulator zdolności kredytowej",
+      "h1": "Jak obliczyć zdolność kredytową: krok po kroku",
+      "intro": "Obliczenie zdolności kredytowej to kluczowy element procesu ubiegania się o kredyt hipoteczny. Warto wiedzieć, jakie czynniki mają wpływ na tę zdolność oraz jak właściwie przeprowadzić obliczenia.",
+      "sekcje": [
+        {
+          "h2": "Czym jest zdolność kredytowa?",
+          "tresc": "Zdolność kredytowa to maksymalna kwota, jaką bank jest skłonny pożyczyć klientowi na podstawie jego sytuacji finansowej. To nie tylko suma dochodów, ale także analiza wydatków, zobowiązań oraz historii kredytowej. Kluczowym celem banku jest ocena, czy klient będzie w stanie spłacić zaciągnięty kredyt w określonym czasie. Warto wiedzieć, że zdolność kredytowa może się różnić w zależności od instytucji finansowej, dlatego warto porównywać oferty różnych banków. Dodatkowo, obliczenia zdolności kredytowej mogą być różne w zależności od rodzaju kredytu, np. hipotecznego czy gotówkowego."
+        },
+        {
+          "h2": "Jakie czynniki wpływają na zdolność kredytową?",
+          "tresc": "Na zdolność kredytową wpływa wiele czynników, w tym wysokość dochodów, stabilność zatrudnienia, obecność innych zobowiązań finansowych oraz historia kredytowa. Banki analizują dochody netto, które pozostają po odliczeniu wszelkich kosztów życia. Stabilność zatrudnienia jest również kluczowa – im dłużej pracujesz w danej firmie, tym lepiej. W przypadku innych zobowiązań, takich jak kredyty samochodowe czy karty kredytowe, banki mogą stosować tzw. wskaźnik DTI (Debt-to-Income), który pokazuje, jaka część dochodów jest przeznaczana na spłatę długów. Historia kredytowa, czyli dotychczasowe spłaty kredytów i pożyczek, także ma duże znaczenie, ponieważ banki preferują klientów, którzy wykazują się terminowością."
+        },
+        {
+          "h2": "Krok po kroku: jak obliczyć zdolność kredytową?",
+          "tresc": "Obliczenie zdolności kredytowej można przeprowadzić w kilku prostych krokach. Po pierwsze, zbierz wszystkie dane dotyczące dochodów, w tym wynagrodzenie, premie oraz inne źródła przychodu. Następnie oblicz swoje miesięczne wydatki, uwzględniając koszty życia, rachunki i inne zobowiązania. Oprócz tego, warto skorzystać z kalkulatorów dostępnych online, które pomogą w oszacowaniu zdolności kredytowej na podstawie wprowadzonych danych. Na koniec, porównaj wyniki z wymaganiami banków, aby ustalić, na jaką kwotę kredytu możesz liczyć. Pamiętaj, że obliczenia powinny być dokładne, ponieważ każdy błąd może wpłynąć na decyzję kredytową."
+        },
+        {
+          "h2": "Jak poprawić swoją zdolność kredytową?",
+          "tresc": "Jeżeli obliczenia wskazują na niską zdolność kredytową, istnieje kilka sposobów na jej poprawę. Po pierwsze, warto zredukować istniejące zobowiązania, takie jak kredyty czy karty kredytowe. Mniej długów oznacza lepszy wskaźnik DTI, co korzystnie wpłynie na ocenę banku. Kolejnym krokiem jest zwiększenie dochodów, co może być osiągnięte poprzez dodatkową pracę lub negocjacje wyższej pensji. Dobrze jest również zadbać o pozytywną historię kredytową, spłacając bieżące zobowiązania w terminie. Wreszcie, warto rozważyć złożenie wniosku o kredyt z współkredytobiorcą, co może zwiększyć szanse na uzyskanie korzystnych warunków kredytowych."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Co to jest zdolność kredytowa?",
+          "a": "Zdolność kredytowa to ocena finansowa, która określa, jaką kwotę kredytu bank może udzielić klientowi, biorąc pod uwagę jego dochody, wydatki i historię kredytową."
+        },
+        {
+          "q": "Jakie dokumenty są potrzebne do obliczenia zdolności kredytowej?",
+          "a": "Do obliczenia zdolności kredytowej potrzebne będą dokumenty potwierdzające dochody, takie jak zaświadczenia o zarobkach, umowy o pracę oraz wyciągi z konta bankowego. Warto przygotować również informacje o innych zobowiązaniach finansowych."
+        },
+        {
+          "q": "Czy można poprawić zdolność kredytową?",
+          "a": "Tak, istnieje wiele sposobów na poprawę zdolności kredytowej, takich jak spłata istniejących długów, zwiększenie dochodów oraz dbanie o terminowe spłaty zaciągniętych kredytów."
+        },
+        {
+          "q": "Jak długo trwa proces obliczania zdolności kredytowej?",
+          "a": "Proces obliczania zdolności kredytowej można przeprowadzić w ciągu kilku dni, jednak ostateczna decyzja banku może zająć dłużej, w zależności od złożoności wniosku i wymaganych dokumentów."
+        }
+      ],
+      "oferty": []
     }
   ],
   "ubezpieczenia": [
