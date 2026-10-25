@@ -891,33 +891,61 @@
       "desc": "Porównaj ubezpieczenia mieszkania i domu. Sprawdź co obejmuje polisa, ile kosztuje i który ubezpieczyciel jest najlepszy.",
       "keywords": "ubezpieczenie mieszkania, ubezpieczenie domu ranking, tanie ubezpieczenie nieruchomości, co obejmuje ubezpieczenie mieszkania",
       "h1": "Ubezpieczenie mieszkania 2026 — ranking i porównanie",
-      "intro": "Ubezpieczenie mieszkania to często zaledwie 200–600 zł rocznie, a może uchronić przed stratą setek tysięcy złotych. Sprawdź co powinno obejmować i który ubezpieczyciel oferuje najlepszy stosunek ceny do zakresu.",
+      "intro": "Ubezpieczenie mieszkania kosztuje zwykle kilkaset złotych rocznie, a może uchronić przed stratą rzędu setek tysięcy złotych po pożarze, zalaniu czy włamaniu. Mimo to wiele osób wybiera polisę wyłącznie po cenie, nie sprawdzając, co faktycznie obejmuje. Wyjaśniamy, co powinna zawierać polisa, od czego zależy jej cena i na co uważać przy kredycie hipotecznym.",
       "sekcje": [
         {
           "h2": "Co powinno obejmować ubezpieczenie mieszkania?",
-          "tresc": "Mury i elementy stałe (obowiązkowe przy kredycie hipotecznym): pożar, zalanie, powódź, trzęsienie ziemi, huragan, wybuch. Ruchomości domowe (wyposażenie): kradzież z włamaniem, wandalizm, zalanie przez sąsiada. OC w życiu prywatnym: zalanie sąsiada, szkody wyrządzone osobom trzecim. Assistance: pomoc hydraulika, ślusarza, elektryka."
+          "tresc": "Polisa mieszkaniowa zwykle składa się z kilku części, które można łączyć w pakiet:</p><ul><li><strong>mury i elementy stałe</strong> — ochrona konstrukcji oraz trwałych elementów wykończenia (podłogi, okna, drzwi, zabudowy) przed pożarem, zalaniem, powodzią, huraganem, uderzeniem pioruna i wybuchem,</li><li><strong>ruchomości domowe</strong> — meble, sprzęt RTV i AGD, odzież i inne przedmioty. Ochrona obejmuje m.in. kradzież z włamaniem, rabunek, wandalizm i zalanie,</li><li><strong>OC w życiu prywatnym</strong> — pokrywa szkody wyrządzone osobom trzecim, na przykład zalanie mieszkania sąsiada,</li><li><strong>assistance</strong> — pomoc hydraulika, ślusarza, elektryka lub osoby sprzątającej po szkodzie.</li></ul><p>Sprawdź, jakie zdarzenia są objęte ochroną w wariancie podstawowym, a które wymagają dokupienia opcji. Dotyczy to zwłaszcza powodzi, zalania z zewnątrz, kradzieży bez włamania i przepięć elektrycznych."
         },
         {
-          "h2": "Ile kosztuje ubezpieczenie mieszkania?",
-          "tresc": "Ubezpieczenie murów mieszkania 50 m²: ok. 150–350 zł/rok. Pakiet (mury + wyposażenie + OC): 250–600 zł/rok. Na cenę wpływa: metraż i wartość nieruchomości, piętro i typ budownictwa, lokalizacja (strefa zalewowa, kradzieże), wybrane sumy ubezpieczenia i opcje dodatkowe."
+          "h2": "Od czego zależy cena polisy",
+          "tresc": "Cena polisy dla mieszkania o powierzchni około 50 m² często mieści się w przedziale od kilkuset złotych rocznie, ale konkretna kwota zależy od wielu czynników. Wpływają na nią:</p><ul><li>powierzchnia i wartość mieszkania oraz suma ubezpieczenia,</li><li>piętro, wiek i typ budynku,</li><li>lokalizacja, a w tym ryzyko zalania lub kradzieży w danym rejonie,</li><li>wybrany zakres ochrony i dodatkowe opcje,</li><li>wysokość franszyzy i udziału własnego,</li><li>zabezpieczenia, takie jak atestowane zamki, alarm lub drzwi antywłamaniowe.</li></ul><p>Podane kwoty traktuj orientacyjnie. Aktualną cenę sprawdzisz w kalkulatorach ubezpieczycieli lub porównywarkach, wprowadzając dane własnego mieszkania."
         },
         {
-          "h2": "Ubezpieczenie obowiązkowe przy kredycie hipotecznym",
-          "tresc": "Bank wymaga: ubezpieczenia nieruchomości (murów) z cesją na bank — chroni zabezpieczenie kredytu. Banki często proponują własne polisy — mogą być droższe. Masz prawo wybrać dowolnego ubezpieczyciela spełniającego wymogi banku. Warto porównać — oszczędzisz 100–300 zł rocznie."
+          "h2": "Suma ubezpieczenia — pułapka niedoubezpieczenia",
+          "tresc": "Suma ubezpieczenia powinna odpowiadać rzeczywistej wartości mieszkania i jego wyposażenia. Jeśli wskażesz zbyt niską kwotę, ubezpieczyciel może zastosować zasadę proporcji i wypłacić odszkodowanie pomniejszone w takim stopniu, w jakim suma była niedoszacowana.</p><p>Ubezpieczając mury, kieruj się wartością odtworzeniową, czyli kosztem odbudowy lub remontu, a nie ceną rynkową. W przypadku ruchomości sporządź listę najcenniejszych przedmiotów, zrób zdjęcia i zachowaj faktury. Ułatwi to dochodzenie odszkodowania po szkodzie."
+        },
+        {
+          "h2": "Ubezpieczenie przy kredycie hipotecznym",
+          "tresc": "Bank udzielający kredytu hipotecznego zwykle wymaga ubezpieczenia nieruchomości, czyli murów, najczęściej z cesją praw z polisy na rzecz banku. Cesja oznacza, że w razie szkody odszkodowanie jest kierowane do banku, który zabezpiecza swój interes. W praktyce środki są zazwyczaj przekazywane na naprawę szkody.</p><p>Banki często proponują własne polisy, ale nie zawsze są one najtańsze. Zazwyczaj możesz wybrać innego ubezpieczyciela, o ile polisa spełnia warunki banku. Przed zakupem sprawdź wymagania umowy kredytowej i poproś bank o wskazanie, jakich zapisów oczekuje. Porównanie ofert może zaoszczędzić kilkadziesiąt do kilkuset złotych rocznie."
+        },
+        {
+          "h2": "Ubezpieczenie przy wynajmie mieszkania",
+          "tresc": "Jeśli wynajmujesz mieszkanie, zwykle właściciel ubezpiecza mury i wyposażenie stałe, a najemca może ubezpieczyć swoje rzeczy i OC. Warto jasno ustalić to w umowie najmu. Dla właściciela istotne jest też sprawdzenie, czy polisa obejmuje szkody wyrządzone przez najemcę oraz czy nie wyklucza wynajmu.</p><p>Jeśli najemca zaleje sąsiada, odpowiedzialność ponosi on lub jego ubezpieczenie OC. Mając własną polisę OC w życiu prywatnym, najemca może zabezpieczyć się przed takim ryzykiem."
+        },
+        {
+          "h2": "Co zwykle nie jest objęte ochroną",
+          "tresc": "Warunki ubezpieczenia zawierają listę wyłączeń. Najczęściej dotyczą one szkód wynikających z umyślnego działania, braku konserwacji i zaniedbań, zużycia technicznego, a także szkód w mieszkaniu pozostawionym bez zabezpieczeń. W przypadku kradzieży ubezpieczyciele często wymagają zabezpieczeń, na przykład zamków o określonej klasie. Gotówka, biżuteria i przedmioty kolekcjonerskie zazwyczaj mają niskie limity odpowiedzialności.</p><p>Powódź i zalanie z zewnątrz bywają objęte ochroną tylko po dokupieniu opcji lub w drugim wariancie. Zawsze czytaj ogólne warunki ubezpieczenia (OWU) przed podpisaniem umowy. Jeśli jakiś zapis jest niejasny, poproś agenta lub infolinię o wyjaśnienie na piśmie jeszcze przed opłaceniem składki, bo ułatwi to późniejsze dochodzenie roszczeń."
+        },
+        {
+          "h2": "Jak porównywać oferty ubezpieczycieli",
+          "tresc": "Najniższa składka nie zawsze oznacza najlepszą ofertę. Porównując polisy, zestaw je według tych samych kryteriów:</p><ul><li><strong>zakres ochrony</strong> — jakie zdarzenia są objęte, a jakie wyłączone,</li><li><strong>sumy ubezpieczenia i limity</strong> — zwłaszcza dla kradzieży, biżuterii i sprzętu elektronicznego,</li><li><strong>franszyza i udział własny</strong> — kwota, którą pokrywasz sam przy każdej szkodzie,</li><li><strong>wymagane zabezpieczenia</strong> — niespełnienie warunków może skutkować odmową wypłaty,</li><li><strong>sposób likwidacji szkód</strong> — opinie klientów, czas wypłaty i dostępność zgłoszeń online,</li><li><strong>zasady wypowiedzenia i odnowienia</strong> — czy umowa przedłuża się automatycznie.</li></ul><p>Nie zakładaj, że dwie polisy w podobnej cenie dają tę samą ochronę. Różnice w limitach i wyłączeniach potrafią zadecydować o wysokości odszkodowania. Przed podpisaniem przeczytaj ogólne warunki ubezpieczenia, zwracając uwagę na rozdziały o wyłączeniach odpowiedzialności i obowiązkach ubezpieczonego."
+        },
+        {
+          "h2": "Co zrobić po szkodzie",
+          "tresc": "Po zdarzeniu zgłoś szkodę do ubezpieczyciela jak najszybciej, a w razie kradzieży, pożaru lub wandalizmu również na policję. Zabezpiecz mieszkanie przed dalszymi stratami, ale nie usuwaj śladów szkody przed oględzinami, jeśli nie jest to konieczne. Zrób zdjęcia i zachowaj dokumenty potwierdzające wartość zniszczonych rzeczy.</p><p>Jeśli ubezpieczyciel odmówi wypłaty lub zaniży odszkodowanie, możesz złożyć odwołanie lub skargę, a następnie skorzystać z pomocy Rzecznika Finansowego. Informacje mają charakter ogólny i nie stanowią porady prawnej, podatkowej ani finansowej. Przepisy, stawki podatków i oferty ubezpieczycieli zmieniają się, dlatego przed podjęciem decyzji sprawdź aktualne warunki i w razie wątpliwości skonsultuj się z doradcą."
         }
       ],
       "faq": [
         {
           "q": "Czy ubezpieczenie mieszkania jest obowiązkowe?",
-          "a": "Przy kredycie hipotecznym — tak, bank wymaga ubezpieczenia murów z cesją. Bez kredytu — dobrowolne, ale bardzo zalecane. OC w życiu prywatnym jest opcjonalne, ale warto mieć — jedna zalana przez Ciebie podłoga u sąsiada to kilka tysięcy złotych."
+          "a": "Przy kredycie hipotecznym bank zwykle wymaga ubezpieczenia nieruchomości, najczęściej z cesją na bank. Bez kredytu ubezpieczenie jest dobrowolne, ale bardzo zalecane. Ubezpieczenie OC w życiu prywatnym też jest dobrowolne, a może uchronić przed wysokimi kosztami, na przykład po zalaniu sąsiada."
         },
         {
           "q": "Jak działa cesja polisy na bank?",
-          "a": "Cesja oznacza, że w razie szkody (np. pożar, zalanie) odszkodowanie trafia do banku, a nie do Ciebie — bank jest zabezpieczony. W praktyce bank zazwyczaj przekazuje pieniądze na naprawę szkody, nie na spłatę kredytu."
+          "a": "Cesja oznacza, że w razie szkody odszkodowanie jest kierowane do banku, który zabezpiecza kredyt. W praktyce bank zazwyczaj akceptuje przeznaczenie środków na naprawę uszkodzonego mieszkania, ale zasady zależą od warunków umowy kredytowej."
         },
         {
           "q": "Co nie jest objęte ubezpieczeniem mieszkania?",
-          "a": "Standardowo wyłączone: umyślne działanie ubezpieczonego, szkody wynikające z braku konserwacji i zaniedbania, zalanie spowodowane nieszczelnością dachu starszą niż określony wiek budynku, powódź (jeśli nie dokupiono opcji), gotówka powyżej limitu."
+          "a": "Standardowo wyłączone są szkody wyrządzone umyślnie, szkody spowodowane zaniedbaniem i zużyciem technicznym oraz zdarzenia nieobjęte wybranym wariantem, na przykład powódź bez dokupionej opcji. Dokładną listę znajdziesz w ogólnych warunkach ubezpieczenia."
+        },
+        {
+          "q": "Ile kosztuje ubezpieczenie mieszkania?",
+          "a": "Cena zależy od wartości mieszkania, lokalizacji, zakresu ochrony i franszyzy. Dla typowego mieszkania to zwykle od kilkuset złotych rocznie. Aby poznać dokładną cenę, porównaj oferty w kalkulatorach ubezpieczycieli lub porównywarkach."
+        },
+        {
+          "q": "Czy ubezpieczenie obejmuje zalanie mieszkania przez sąsiada?",
+          "a": "Zalanie przez sąsiada jest zwykle objęte polisą mieszkaniową w zakresie ruchomości i elementów stałych. Odszkodowanie możesz też dochodzić z OC sprawcy. Warto sprawdzić zapisy polisy i zakres zdarzeń objętych ochroną."
         }
       ],
       "oferty": [
@@ -1815,29 +1843,61 @@
       "desc": "Zainwestuj w remont mieszkania pod wynajem. Sprawdź, co się opłaca i zwiększ swoje zyski!",
       "keywords": "remont mieszkania, wynajem mieszkań, inwestycje w nieruchomości, wykończenie wnętrz, trendy remontowe",
       "h1": "Jak efektywnie remontować mieszkanie pod wynajem?",
-      "intro": "Remont mieszkania przed wynajmem to kluczowy krok w zwiększaniu jego wartości. Odpowiednie inwestycje mogą przynieść znaczne zyski, dlatego warto wiedzieć, na co zwrócić szczególną uwagę.",
+      "intro": "Remont mieszkania pod wynajem rządzi się innymi prawami niż remont „dla siebie”. Celem nie jest idealne wnętrze, ale takie, które szybko znajdzie najemcę, utrzyma dobry czynsz i nie będzie generowało kosztownych napraw. Pokazujemy, na co warto wydać pieniądze, czego unikać i jak policzyć, czy remont się zwróci.",
       "sekcje": [
         {
-          "h2": "Trendy remontowe - co warto uwzględnić?",
-          "tresc": "Warto być na bieżąco z aktualnymi trendami remontowymi, które mogą zwiększyć wartość mieszkania. Popularne obecnie są rozwiązania ekologiczne, takie jak wykorzystanie materiałów odnawialnych oraz energooszczędnych technologii. Mieszkania z inteligentnymi systemami zarządzania energią stają się coraz bardziej pożądane. Dodatkowo, styl skandynawski, charakteryzujący się prostotą i funkcjonalnością, cieszy się dużym zainteresowaniem. Wprowadzenie nowoczesnych rozwiązań i stylów może przyciągnąć większą liczbę najemców."
+          "h2": "Zasada podstawowa: remont ma się zwrócić",
+          "tresc": "Mieszkanie pod wynajem to inwestycja, więc każdy wydatek warto oceniać przez pryzmat zwrotu. Podstawowe pytanie brzmi: o ile wzrośnie czynsz lub skróci się czas poszukiwania najemcy po danej zmianie? Remont, który podnosi komfort, ale nie wpływa na atrakcyjność oferty, jest kosztem, a nie inwestycją.</p><p>Zanim zaczniesz, sprawdź ogłoszenia podobnych mieszkań w okolicy: ich standard, wyposażenie i ceny. Wynajmujący, który dostosuje mieszkanie do poziomu konkurencji, zwykle zyskuje więcej niż ten, który próbuje „przeskoczyć” rynek luksusowym wykończeniem w tańszej dzielnicy."
+        },
+        {
+          "h2": "Co zwykle opłaca się remontować",
+          "tresc": "Największy wpływ na decyzję najemców mają pomieszczenia, które widać na pierwszych zdjęciach i które trudno poprawić samemu. Priorytety to:</p><ul><li><strong>łazienka</strong> — czysta, sprawna, z nowoczesną armaturą i bez śladów wilgoci. Często wystarczy wymiana armatury, fug, silikonów i oświetlenia, bez kosztownej przebudowy,</li><li><strong>kuchnia</strong> — funkcjonalna zabudowa, sprawna płyta i okap, najlepiej z podstawowym AGD. Nie musi być drogo, ale ma być zadbana,</li><li><strong>podłogi</strong> — trwałe i łatwe w czyszczeniu, na przykład panele winylowe lub dobrej jakości laminat. Ciężko wymieniać je co kilka lat,</li><li><strong>malowanie</strong> — świeże, neutralne ściany to najtańszy sposób na wyraźną poprawę wyglądu,</li><li><strong>instalacje</strong> — sprawna elektryka, hydraulika i ogrzewanie. To podstawa bezpieczeństwa i uniknięcia awarii w trakcie najmu.</li></ul><p>Jeśli budżet jest ograniczony, zacznij od tego, co wpływa na bezpieczeństwo i podstawowy komfort, a dopiero potem inwestuj w wygląd."
+        },
+        {
+          "h2": "Trwałość ważniejsza niż moda",
+          "tresc": "W mieszkaniu pod wynajem lepiej wybierać materiały odporne na intensywne użytkowanie niż modne, ale delikatne. Dobrze sprawdzają się zmywalne farby, płytki ceramiczne i gresowe, blaty odporne na zarysowania oraz meble bez skomplikowanych mechanizmów. Neutralne kolory, takie jak biel, jasne szarości i beże, pasują do różnych gustów i sprawiają, że wnętrze wydaje się większe.</p><p>Styl skandynawski, czyli prosty, jasny i funkcjonalny, bywa bezpiecznym wyborem, ale nie chodzi o podążanie za trendem. Chodzi o to, by wnętrze nie odpychało i łatwo było je utrzymać w czystości. Drogie, nietypowe wykończenia najczęściej się nie zwracają, bo najemca rzadko za nie dopłaci, a ich wymiana po zniszczeniu jest kosztowna."
+        },
+        {
+          "h2": "Umeblowanie i wyposażenie",
+          "tresc": "Umeblowane mieszkania zwykle wynajmują się szybciej i pozwalają ustalić wyższy czynsz, szczególnie w dużych miastach i przy najmie krótko- oraz średnioterminowym. Minimum to łóżko z materacem, szafa, stół z krzesłami, sofa oraz podstawowe AGD: lodówka, płyta, pralka. Wybieraj sprzęt sprawdzonych producentów i proste, solidne meble.</p><p>Zapisz, co znajduje się w mieszkaniu, i sporządź protokół zdawczo-odbiorczy ze zdjęciami przy każdej zmianie najemcy. To najlepszy sposób, by uniknąć sporów o stan wyposażenia i kaucję."
+        },
+        {
+          "h2": "Energooszczędność jako argument dla najemcy",
+          "tresc": "Dla wielu najemców liczą się nie tylko czynsz, ale całkowity miesięczny koszt utrzymania. Wymiana starych okien, uszczelnienie mieszkania, dobre grzejniki, termostaty czy oświetlenie LED mogą obniżyć rachunki i stać się mocnym argumentem w ogłoszeniu. W przypadku lokali w starszych budynkach warto sprawdzić, jaki jest standard ogrzewania i jak wysokie są opłaty w budynku.</p><p>Inteligentne systemy sterowania ogrzewaniem są ciekawym dodatkiem, ale nie zastąpią podstaw, takich jak ciepłe, szczelne okna i sprawna instalacja. Najpierw popraw to, co realnie wpływa na rachunki, a dopiero potem zastanawiaj się nad gadżetami."
+        },
+        {
+          "h2": "Jak policzyć, czy remont się opłaca",
+          "tresc": "Prosta metoda to porównanie kosztu remontu z dodatkowym czynszem, jaki możesz uzyskać, oraz z oszczędnością wynikającą z krótszego czasu pustostanu. Przykład (hipotetyczny, służy wyłącznie do zilustrowania wyliczenia): jeśli odświeżenie łazienki i kuchni kosztuje 20 000 zł, a po remoncie możesz wynająć mieszkanie za 400 zł miesięcznie więcej, to zwrot nastąpi po około 50 miesiącach, czyli po ponad czterech latach. Sam ten wynik nie przesądza, ale daje punkt odniesienia.</p><p>Do rachunku dolicz utracony czynsz w czasie remontu. Puste mieszkanie przez dwa miesiące to dwa czynsze mniej. Zawsze zostaw 10–15% budżetu jako rezerwę na nieprzewidziane wydatki, bo przy remontach często wychodzą ukryte usterki."
+        },
+        {
+          "h2": "Podatki i formalności",
+          "tresc": "Sposób rozliczenia remontu zależy od tego, jak opodatkowany jest najem. Przy najmie prywatnym rozliczanym ryczałtem nie odliczasz kosztów remontu, bo podatek liczy się od przychodu. Przy rozliczeniu na zasadach ogólnych niektóre wydatki mogą być kosztami uzyskania przychodu, a większe ulepszenia wymagają amortyzacji. Wybór formy opodatkowania warto omówić z doradcą podatkowym, zanim zaczniesz remont.</p><p>Pamiętaj też o formalnościach: umowie najmu z jasno opisanym stanem mieszkania i kaucją, ubezpieczeniu lokalu oraz zgłoszeniu najmu do urzędu skarbowego. Informacje mają charakter ogólny i nie stanowią porady prawnej, podatkowej ani finansowej. Przepisy, stawki podatków i oferty ubezpieczycieli zmieniają się, dlatego przed podjęciem decyzji sprawdź aktualne warunki i w razie wątpliwości skonsultuj się z doradcą."
+        },
+        {
+          "h2": "Najczęstsze błędy przy remoncie pod wynajem",
+          "tresc": "Do najczęstszych błędów należą: brak analizy rynku najmu przed rozpoczęciem remontu, zbyt drogie wykończenie względem standardu okolicy, brak rezerwy budżetowej, niedoszacowanie czasu prac i przeciąganie remontu, a także oszczędzanie na instalacjach i bezpieczeństwie zamiast na elementach dekoracyjnych. Warto też unikać nietypowych rozwiązań, które zawężają krąg potencjalnych najemców."
         }
       ],
       "faq": [
         {
-          "q": "Jakie są najważniejsze elementy remontu mieszkań pod wynajem?",
-          "a": "Kluczowe elementy to kuchnia, łazienka oraz stylowe wykończenie wnętrz. Warto zainwestować w materiały, które są trwałe i łatwe w utrzymaniu czystości."
+          "q": "Jakie są najważniejsze elementy remontu mieszkania pod wynajem?",
+          "a": "Najważniejsze są łazienka, kuchnia, podłogi, malowanie i sprawne instalacje. To one decydują o pierwszym wrażeniu i o tym, ile mieszkanie może kosztować. Warto wybierać trwałe materiały, które są łatwe w utrzymaniu czystości."
         },
         {
-          "q": "Czy warto inwestować w nowoczesne technologie w mieszkaniach na wynajem?",
-          "a": "Tak, nowoczesne technologie, takie jak inteligentne systemy zarządzania energią, mogą znacząco zwiększyć atrakcyjność mieszkania i przyciągnąć potencjalnych najemców."
+          "q": "Czy warto inwestować w nowoczesne technologie w mieszkaniu na wynajem?",
+          "a": "Podstawy, takie jak szczelne okna, sprawne ogrzewanie i oświetlenie LED, mogą obniżyć rachunki i zwiększyć atrakcyjność oferty. Zaawansowane systemy inteligentnego domu rzadko podnoszą czynsz na tyle, by szybko się zwróciły, więc nie powinny być priorytetem."
         },
         {
           "q": "Jakie kolory najlepiej sprawdzają się w mieszkaniach na wynajem?",
-          "a": "Neutralne kolory, takie jak biel, szarości czy beże, są najlepszym wyborem. Dają one elastyczność w aranżacji i sprawiają, że przestrzeń wydaje się większa."
+          "a": "Neutralne kolory, takie jak biel, jasne szarości i beże, są bezpiecznym wyborem. Pasują do różnych gustów, optycznie powiększają wnętrze i łatwo je odświeżyć między najemcami."
+        },
+        {
+          "q": "Czy mieszkanie pod wynajem warto umeblować?",
+          "a": "Zwykle tak, bo umeblowane mieszkania wynajmują się szybciej i pozwalają ustalić wyższy czynsz. Wybieraj proste, trwałe meble i sprzęt podstawowych producentów, a przy każdej zmianie najemcy sporządzaj protokół zdawczo-odbiorczy ze zdjęciami."
         },
         {
           "q": "Jakie są najczęstsze błędy przy remontach mieszkań na wynajem?",
-          "a": "Do najczęstszych błędów należy niewłaściwe planowanie budżetu, ignorowanie aktualnych trendów oraz brak analizy rynku wynajmu przed przystąpieniem do remontu."
+          "a": "Najczęściej są to: brak analizy rynku, zbyt luksusowe wykończenie w stosunku do okolicy, brak rezerwy finansowej i oszczędzanie na instalacjach. Warto również uwzględnić utracony czynsz w czasie remontu."
         }
       ],
       "oferty": []
