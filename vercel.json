@@ -1,5 +1,67 @@
 {
   "buildCommand": "python generate.py",
   "outputDirectory": "dist",
-  "framework": null
+  "framework": null,
+  "redirects": [
+    {
+      "source": "/kredyty/zdolnosc-kredytowa",
+      "destination": "/kredyty/zdolnosc-kredytowa-jak-obliczyc-krok-po-kroku/",
+      "permanent": true
+    },
+    {
+      "source": "/kredyty/zdolnosc-kredytowa/",
+      "destination": "/kredyty/zdolnosc-kredytowa-jak-obliczyc-krok-po-kroku/",
+      "permanent": true
+    },
+    {
+      "source": "/kredyty/refinansowanie-kredytu-mbank",
+      "destination": "/kredyty/refinansowanie-kredytu-hipotecznego/",
+      "permanent": true
+    },
+    {
+      "source": "/kredyty/refinansowanie-kredytu-mbank/",
+      "destination": "/kredyty/refinansowanie-kredytu-hipotecznego/",
+      "permanent": true
+    },
+    {
+      "source": "/ubezpieczenia/ubezpieczenie-mieszkania-co-obejmuje-i-ile-kosztuje-2025",
+      "destination": "/ubezpieczenia/ubezpieczenie-mieszkania/",
+      "permanent": true
+    },
+    {
+      "source": "/ubezpieczenia/ubezpieczenie-mieszkania-co-obejmuje-i-ile-kosztuje-2025/",
+      "destination": "/ubezpieczenia/ubezpieczenie-mieszkania/",
+      "permanent": true
+    },
+    {
+      "source": "/ubezpieczenia/ubezpieczenie-domu-od-powodzi-i-zalania-jak-wybrac",
+      "destination": "/ubezpieczenia/ubezpieczenie-domu-od-powodzi/",
+      "permanent": true
+    },
+    {
+      "source": "/ubezpieczenia/ubezpieczenie-domu-od-powodzi-i-zalania-jak-wybrac/",
+      "destination": "/ubezpieczenia/ubezpieczenie-domu-od-powodzi/",
+      "permanent": true
+    },
+    {
+      "source": "/remonty/ile-kosztuje-remont-lazienki",
+      "destination": "/remonty/lazienka-remont-cena-za-metr-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/remonty/ile-kosztuje-remont-lazienki/",
+      "destination": "/remonty/lazienka-remont-cena-za-metr-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/remonty/ile-kosztuje-wymiana-okien-2026",
+      "destination": "/remonty/koszt-wymiany-okien-pcv-cennik-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/remonty/ile-kosztuje-wymiana-okien-2026/",
+      "destination": "/remonty/koszt-wymiany-okien-pcv-cennik-2026/",
+      "permanent": true
+    }
+  ]
 }
